@@ -1,0 +1,112 @@
+
+{.section item}
+
+  <!--WRAPPER-->
+  
+  <article id="restaurant-{id}" class="{@|item-classes}" data-item-id="{id}">
+
+  <!--CATEGORIES-->
+
+    {.repeated section categories}
+      <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with} 
+    {.end}
+
+    <!--TAGS-->
+
+    {.repeated section tags}
+      <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with} 
+    {.end}
+    
+    <!--POST TILE-->
+
+    <h1 class="title" data-content-field="title">
+      {.passthrough?}
+        <a href="{sourceUrl}" target="_blank">{title}</a>
+      {.or}
+        <a href="{fullUrl}">{title}</a>
+      {.end}
+    </h1>
+
+        <!--AUTHOR AND DATE-->
+    
+    <p class="meta">
+      <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a> <time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time>
+      {.section sourceUrl}
+        <a href="{@}" class="source" target="_blank">Source</a>
+      {.end}
+    </p>        
+
+    <!--MAIN IMAGE-->
+
+    {.main-image?}  
+      <a href="{fullUrl}" class="main-image content-fill">
+        <img {@|image-meta} />
+      </a>
+    {.end}
+    
+    <!--MAIN CONTENT-->
+
+    {body}
+
+<hr>
+  {.if item.customContent.webLink}
+    {item.customContent.webLink}
+    {.end}
+<hr>
+
+    <!--BLOG INJECTION-->
+
+    {postItemInjectCode}    
+
+    
+    <br>
+    <hr>
+    <!--SHARE AND LIKE-->
+
+    {@|like-button}
+    {@|social-button}
+
+
+
+    <!--LOCATION-->
+
+    {.section location}
+      {.section addressTitle}
+        <h3 class="location">{addressTitle}</h3>
+        <h4 class = "location">{addressLine1}</h4>
+        <h4 class = "location">{addressLine2}</h4>
+      {.end}
+    {.end}
+
+    <!--COMMENTS-->
+
+    {@|comments}
+
+  </article>
+
+{.end}
+    
+
+<!--PAGINATION-->
+  
+{.section pagination}
+  <nav>
+
+    <!--NEWER PAGE-->
+
+    {.section prevItem}
+      <a href="{fullUrl}">Newer</a>
+    {.or}
+      <a class="disabled">Newer</a>
+    {.end}
+    
+    <!--OLDER PAGE-->
+
+    {.section nextItem}
+      <a href="{fullUrl}">Older</a>
+    {.or}
+      <a class="disabled">Older</a>
+    {.end}
+
+  </nav>
+{.end}
