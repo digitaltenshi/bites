@@ -1,0 +1,61 @@
+
+      <!--Content injection point.-->
+      <main id="content" class="content" role="main" data-content-field="main-content">
+
+<div id = "xdirectory-top">
+  <p><strong><em>Find a nice place to grab a bite</em></strong>
+</p>
+<form name = "directory" id="directory-action" method = "post">
+  <select id="cuisine" name = "cuisine">
+    <option value = "-1">Any Cuisine</option>
+    <option value = "0">Chinese</option>
+    <option value = "1">Cocktails</option>
+    <option value = "2">Farm to Table</option>
+    <option value = "3">French</option>
+    <option value = "4">Greek</option>
+    <option value = "5">Italian</option>
+    <option value = "6">Mexican</option>
+    <option value = "7">Pizza</option>
+    <option value = "8">Spanish</option>
+    <option value = "9">Thai</option>
+  </select>
+  <select id = "town" name = "town">
+    <option value = "-1">Any Town</option>
+    <option value = "10">Danbury</option>
+    <option value = "11">Darien</option>
+    <option value = "12">Fairfield</option>
+    <option value = "13">Greenwich</option>
+    <option value = "14">Hartford</option>
+    <option value = "15">Kent</option>
+    <option value = "16">New Haven</option>
+    <option value = "17">Norwalk</option>
+    <option value = "18">Stamford</option>
+    <option value = "19">Westport</option>  
+  </select>
+  
+  <select id="mealtype" name = "mealtype">
+  <option value = "-1">I'm Looking For...</option>
+  <option value = "20">Brunch</option>
+  <option value = "21">Lunch</option>
+  <option value = "22">Dinner</option>
+  <option value = "23">Drinks</option>
+  <option value = "24">Delicious Dives</option>
+  </select>
+</form>
+</div>
+
+<hr>
+
+
+  
+
+
+       {squarespace.main-content}
+
+
+
+
+        {@|apply editions.block} 
+      </main>
+
+      <div class="clearer sqs-col sqs-col-12">&nbsp;</div>
