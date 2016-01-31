@@ -1,0 +1,98 @@
+<style>
+#searchoverlayform hr {
+  width: 50%;
+  color: #FFF;
+  border-top: solid 1px #FFF;
+  height: 1px;
+}
+</style>
+
+<div id = "searchoverlay" class = "hide">
+<img src = "/assets/close.svg" id="searchoverlayclose">
+<div style = "overlaybg">
+
+<div id = "searchoverlayform">
+<form name = "regularsearch" id = "regularsearch" method = "get" action = "/search/">
+<input id = "q" name = "q" type = "text" value = "Search...">
+<!--select name = "where" id = "searchwhere">
+<option value = "features">in Features</option>
+<option value = "recipes">in Recipes</option>
+<option value = "directory">in Directory</option>
+<option value = "calendar">in Calendar</option>
+</select -->
+
+<input type = "submit" value = "go" id = "searchmagnify" style="background:url(/assets/searchmagnify.svg) no-repeat; background-color: transparent; margin: 8px; border: solid 1px #FFF; text-indent: -999999px;">
+</form>
+
+<hr>
+
+<form name = "directory" id = "directory-action" method = "get" action = "/directory/">
+<div class = "overlay-directory">
+<p>Find a restaurant</p>
+  <select id="cuisine" name = "cuisine">
+    <option value = "">Any Cuisine</option>
+    <option value = "american">American</option>
+    <option value = "chinese">Chinese</option>
+    <option value = "cocktails">Cocktails</option>
+    <option value = "farm-to-table">Farm to Table</option>
+    <option value = "french">French</option>
+    <option value = "greek">Greek</option>
+    <option value = "italian">Italian</option>
+    <option value = "mexican">Mexican</option>
+    <option value = "pizza">Pizza</option>
+    <option value = "spanish">Spanish</option>
+    <option value = "thai">Thai</option>
+  </select>
+  <select id = "town" name = "town">
+    <option value = "">Any Town</option>
+    <option value = "danbury">Danbury</option>
+    <option value = "darien">Darien</option>
+    <option value = "fairfield">Fairfield</option>
+    <option value = "greenwich">Greenwich</option>
+    <option value = "hartford">Hartford</option>
+    <option value = "kent">Kent</option>
+    <option value = "new-haven">New Haven</option>
+    <option value = "norwalk">Norwalk</option>
+    <option value = "stamford">Stamford</option>
+    <option value = "westport">Westport</option>  
+  </select>
+  
+  <select id="mealtype" name = "mealtype">
+  <option value = "">Any Meal Type</option>
+  <option value = "brunch">Brunch</option>
+  <option value = "lunch">Lunch</option>
+  <option value = "dinner">Dinner</option>
+  <option value = "drinks">Drinks</option>
+  <option value = "delicious-dives">Delicious Dives</option>
+  </select>
+
+  <input type="submit" style=";left:730px;top:47px;z-index:10057;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;border-color:#e2e1e9;border-style:solid;background-color:#a3cc31;color:#ffffff;font-size:20px;font-weight:;font-style:normal;font-family:'Bree Serif';text-align:center;box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-o-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);background-size:auto;background-repeat:repeat;background-position:center center;padding-top:0px;padding-right:10px;padding-bottom:0px;padding-left:10px;width:57px;height:40px;;" class="ElButton active " value="Go" id="filtergobutton">
+  </form>
+</div>
+
+<div class = "overlay-edition">
+
+<p>Select an edition</p>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
