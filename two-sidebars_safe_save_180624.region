@@ -1,0 +1,45 @@
+
+
+      <div id="page-body-wrapper" class="two-sidebars">
+        <div id="page-body">
+
+          <div id="content-wrapper">
+            <div id="content">
+
+              <div id="page-body-header" class="extra-wrapper">
+                <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" />
+              </div>
+              {squarespace.main-content}
+              <div id="page-body-footer" class="extra-wrapper">
+                <squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" />
+              </div>
+
+            </div>
+          </div> <!-- content-wrapper -->
+
+          <div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper">
+            <div id="sidebar-one" class="sidebar1">
+              
+              {.section website}
+              THIS IS SIDEBAR ONE
+              
+              {.end}
+              <squarespace:block-field id="sidebar-one-blocks" description="The block field for sidebar 1" />
+            </div>
+          </div><!-- sidebar-one-wrapper -->
+          
+          <div id="sidebar-two-wrapper" class="vertical-navigation-bar-wrapper">
+            <div id="sidebar-two" class="vertical-navigation-bar">
+              <squarespace:block-field id="sidebar-two-blocks" description="sidebar2" />
+               {.section website}
+              THIS IS SIDEBAR TWO
+              
+              {.end}
+            </div>
+          </div><!-- sidebar-two-wrapper -->
+
+        <div class="clearer" id="body-clearer"></div>
+ 
+          </div>
+        </div> <!-- page-body-wrapper -->
+        
