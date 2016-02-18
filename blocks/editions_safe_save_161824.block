@@ -1,0 +1,24 @@
+<div class = "editions">
+<hr>
+<h5>Choose a CTbites edition</h5>
+
+<!--div class = "overlay-edition">
+
+<p>Select an edition</p -->
+
+<select name = "edition" onchange="if (this.value) window.location.href=this.value">>
+<option value = "Fairfield">Fairfield</option>
+<option value = "Hartford">Hartford</option>
+<option value = "Litchfield">Litchfield</option>
+<option value = "New Haven">New Haven</option>
+<option value = "Shorline East">Shorline East</option>
+<option value = "http://www.miabites.com/">Miami</option>
+
+</select>
+<-- /div -->
+
+<p><a href = "#">Fairfield</a>       <a href = "#">Hartford</a>       <a href = "#">Litchfield</a>       <a href = "#">New Haven</a><a href = "#">Shoreline East</a></p><p>&nbsp;</p></div>
+
+<div class = "bottomad">
+<a href = "#"><img src = "/assets/iab_728x90.gif"></a>
+</div>
