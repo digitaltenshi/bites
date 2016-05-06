@@ -15,8 +15,8 @@
       
       <div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
         <div id="sidebar-one" class="vertical-navigation-bar">
-          <squarespace:block-field id="sidebar-ad-1" description="Sidebar Ad Space 1"/>
-          <squarespace:block-field id="sidebar-ad-2" description="Sidebar Ad Space 2"/>
+          <squarespace:block-field id="sidebar-ad-2-1" description="Sidebar Ad Space 1"/>
+          <squarespace:block-field id="sidebar-ad-2-2" description="Sidebar Ad Space 2"/>
           {.section website}
           
           {.end}
