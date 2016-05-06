@@ -114,22 +114,8 @@
 
                  <div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
               <div id="sidebar-one" class="vertical-navigation-bar">
-                              <h3>Events</h3>
-                              <p>
-  &nbsp;
-</p>
-                <img src = "/assets/uxpmod_1650936_22383088682_BEERS_AT_THE_BEACH_2015_2.jpg">
-
-<h4>
-  Win 2 Free Tickets to Beers At The Beach Event
-</h4>
-<h5>
-  July 16, 2015
-</h5>
-<p>
-  &nbsp;
-</p>
-<img src = "/assets/apricot.jpg">
+                <squarespace:block-field id="directory-ad-1" description="Directory Ad Space 1"/>
+                <squarespace:block-field id="directory-ad-2" description="Directory Ad Space 2"/>
 
                 {.section website}
                 
