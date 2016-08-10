@@ -27,7 +27,7 @@
         </div><!-- sidebar-one-wrapper -->
         <div class="clearer" id="body-clearer"></div>
         <div id="regform-wrapper" class = "sqs-col sqs-col-12">
-          <div id="reg-form" class = "sqs-col sqs-col-12">
+          <div id="reg-form" class = "sqs-col sqs-col-12 home-page">
             <squarespace:block-field id="regform"  />
             
           </div>
