@@ -1,32 +1,30 @@
 <div id="page-body-wrapper" class="one-sidebar">
   	<div id="page-body" class = "sqs-col sqs-col-12">
-		<div id="content-wrapper">
-		 	<div id="content-home" class = "sqs-col sqs-col-9">
-				<div id="page-body-header" class="extra-wrapper">
-				  <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" />
+		<div id="content-wrapper" class = "sqs-col sqs-col-9">
+			<div id="page-body-header" class="extra-wrapper">
+			  <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" />
+			</div>
+			{squarespace.main-content}
+			
+			<!-- regform -->
+			<div id="regform-wrapper" class = "sqs-col sqs-col-12">
+				<div id="reg-form" class = "sqs-col sqs-col-12 home-page">
+					<squarespace:block-field id="regform"  />
 				</div>
-				{squarespace.main-content}
-				
-				<!-- regform -->
-				<div id="regform-wrapper" class = "sqs-col sqs-col-12">
-					<div id="reg-form" class = "sqs-col sqs-col-12 home-page">
-						<squarespace:block-field id="regform"  />
-					</div>
-				</div>
-				<!-- /regform -->
+			</div>
+			<!-- /regform -->
 
-				<div class="clearer" id="body-clearer"></div>
-				<div id="Secondary-Content">
-					<div id="content2" class = "sqs-col sqs-col-12">
-						<squarespace:block-field id="secondarycontent" columns="12" />
-						{@|apply editions.block}
-					</div>
-				</div> <!-- Secondary-Content -->
-
-				<div id="page-body-footer" class="extra-wrapper">
-				  <squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" />
+			<div class="clearer" id="body-clearer"></div>
+			<div id="Secondary-Content">
+				<div id="content2" class = "sqs-col sqs-col-12">
+					<squarespace:block-field id="secondarycontent" columns="12" />
+					{@|apply editions.block}
 				</div>
-		 	</div>
+			</div> <!-- Secondary-Content -->
+
+			<div id="page-body-footer" class="extra-wrapper">
+			  <squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" />
+			</div>
 		</div> <!-- content-wrapper -->
 	  
 		<div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
