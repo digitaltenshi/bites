@@ -17,9 +17,7 @@
             {.end}
             <div id="regform-wrapper" class = "sqs-col sqs-col-12">
               <div id="reg-form" class = "sqs-col sqs-col-12">
-                <h2><squarespace:block-field id="form-title-sidebar" description="Sidebar Form Title"/></h2>
                 <squarespace:block-field id="regform"  />
-                
               </div>
             </div>
             
