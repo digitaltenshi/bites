@@ -47,19 +47,11 @@
 
     {body}
 
- 
-
     <!--BLOG INJECTION-->
 
     {postItemInjectCode}    
 
-    
     <br>
-
-
-
-
-
 
     <!--LOCATION-->
 
