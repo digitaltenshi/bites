@@ -29,6 +29,10 @@
         <a href="{fullUrl}">{title}</a>
       {.end}
     </h1>
+    <hr>
+    <!--SHARE AND LIKE-->
+    {@|like-button}
+    {@|social-button}
 
         <!--AUTHOR AND DATE-->
     
@@ -53,11 +57,7 @@
     <br>
 
 
-    <hr>
-    <!--SHARE AND LIKE-->
 
-    {@|like-button}
-    {@|social-button}
 
 
 
@@ -70,9 +70,7 @@
         <h4 class = "location">{location.addressLine2}</h4>
       {.end}
     {.end}
-    <h3 class="location">{location.addressTitle}</h3>
-    <h4 class = "location">{location.addressLine1}</h4>
-    <h4 class = "location">{location.addressLine2}</h4>
+
 
     <!--COMMENTS-->
 
