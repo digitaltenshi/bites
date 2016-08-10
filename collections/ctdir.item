@@ -70,6 +70,9 @@
         <h4 class = "location">{location.addressLine2}</h4>
       {.end}
     {.end}
+    <h3 class="location">{location.addressTitle}</h3>
+    <h4 class = "location">{location.addressLine1}</h4>
+    <h4 class = "location">{location.addressLine2}</h4>
 
     <!--COMMENTS-->
 
