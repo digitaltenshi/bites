@@ -6,13 +6,7 @@
 				  <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" />
 				</div>
 				{squarespace.main-content}
-
-			  	<div class="clearer" id="body-clearer"></div>
-				<div id="regform-wrapper" class = "sqs-col sqs-col-12">
-					<div id="reg-form" class = "sqs-col sqs-col-12 home-page">
-						<squarespace:block-field id="regform"  />
-					</div>
-				</div><!-- regform -->
+			
 
 				<div class="clearer" id="body-clearer"></div>
 				<div id="Secondary-Content">
@@ -30,6 +24,14 @@
 	  
 		<div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
 	  		<div id="sidebar-one" class="vertical-navigation-bar">
+		  		<!-- regform -->
+		  		<div id="regform-wrapper" class = "sqs-col sqs-col-12">
+		  			<div id="reg-form" class = "sqs-col sqs-col-12 home-page">
+		  				<squarespace:block-field id="regform"  />
+		  			</div>
+		  		</div>
+		  		<!-- /regform -->
+
 				<squarespace:block-field id="homepage-ad-1" class="sidebar-ad-block" description="Home Sidebar Ad 1"/>
 				<squarespace:block-field id="homepage-ad-2" class="sidebar-ad-block" description="Home Sidebar Ad 2"/>
 				<squarespace:block-field id="homepage-ad-3" class="sidebar-ad-block" description="Home Sidebar Ad 3"/>
@@ -41,6 +43,9 @@
 			
 	  		</div>
 		</div><!-- sidebar-one-wrapper -->
+
+	  	
+
 	</div> <!-- page-body -->
 	{@|apply searchoverlay.block}
 </div> <!-- page-body-wrapper -->
