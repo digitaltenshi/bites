@@ -28,7 +28,6 @@
         <div class="clearer" id="body-clearer"></div>
         <div id="regform-wrapper" class = "sqs-col sqs-col-12">
           <div id="reg-form" class = "sqs-col sqs-col-12">
-            <h2>Bites to your inbox</h2>
             <squarespace:block-field id="regform"  />
             
           </div>
