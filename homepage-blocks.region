@@ -15,16 +15,14 @@
 			<!-- /regform -->
 
 			<div class="clearer" id="body-clearer"></div>
-			<div id="Secondary-Content">
+			<div id="secondary-content">
 				<div id="content2" class = "sqs-col sqs-col-12">
 					<squarespace:block-field id="secondarycontent" columns="12" />
 					{@|apply editions.block}
 				</div>
 			</div> <!-- Secondary-Content -->
 
-			<div id="page-body-footer" class="extra-wrapper">
-			  <squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" />
-			</div>
+			
 		</div> <!-- content-wrapper -->
 	  
 		<div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
@@ -42,7 +40,9 @@
 		</div><!-- sidebar-one-wrapper -->
 
 	  	
-
+		<div id="page-body-footer" class="extra-wrapper">
+		  <squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" />
+		</div>
 	</div> <!-- page-body -->
 	{@|apply searchoverlay.block}
 </div> <!-- page-body-wrapper -->
