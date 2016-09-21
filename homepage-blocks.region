@@ -17,8 +17,7 @@
 			<div class="clearer" id="body-clearer"></div>
 			<div id="secondary-content">
 				<div id="content2" class = "sqs-col sqs-col-12">
-					<squarespace:block-field id="secondarycontent" columns="12" />
-					{@|apply editions.block}
+					<squarespace:block-field id="secondarycontent" columns="12" />		
 				</div>
 			</div> <!-- Secondary-Content -->
 
@@ -39,7 +38,7 @@
 	  		</div>
 		</div><!-- sidebar-one-wrapper -->
 
-	  	
+	  {@|apply editions.block}	
 		<div id="page-body-footer" class="extra-wrapper">
 		  <squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" />
 		</div>
