@@ -29,16 +29,16 @@
 				<div class="sponsors">
 					<h3>Our Sponsors</h3>
 					<div class="homepage-ad">
-						<a href="#" src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-1%20300x250&w=300&h=250">
+						<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-1%20300x250&w=300&h=250"/>
 					</div>
 					<div class="homepage-ad">
-						<a href="#" src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-2%20300x250&w=300&h=250">
+						<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-2%20300x250&w=300&h=250"/>
 					</div>
 					<div class="homepage-ad">
-						<a href="#" src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-3%20300x250&w=300&h=250">
+						<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-3%20300x250&w=300&h=250"/>
 					</div>
 					<div class="homepage-ad">
-						<a href="#" src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-4%20300x250&w=300&h=250">
+						<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-4%20300x250&w=300&h=250"/>
 					</div>
 				</div>
 			
