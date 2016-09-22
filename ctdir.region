@@ -112,7 +112,7 @@
   </div>    
       </div>
 
-                 <div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
+              <div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
               <div id="sidebar-one" class="vertical-navigation-bar">
                 <squarespace:block-field id="directory-ad-1" description="Directory Ad Space 1"/>
                 <squarespace:block-field id="directory-ad-2" description="Directory Ad Space 2"/>
@@ -127,7 +127,7 @@
           <div class="clearer" id="body-clearer"></div>
            {@|apply editions.block} 
           </div>
-                 {@|apply searchoverlay.block} 
+           {@|apply searchoverlay.block} 
         </div> <!-- page-body-wrapper -->
          <div class="clearer sqs-col sqs-col-12">&nbsp;</div>
 

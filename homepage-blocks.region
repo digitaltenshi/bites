@@ -37,9 +37,6 @@
 					<div class="homepage-ad">
 						<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-3%20300x250&w=300&h=250"/>
 					</div>
-					<div class="homepage-ad">
-						<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-4%20300x250&w=300&h=250"/>
-					</div>
 				</div>
 			
 				{.section website}
