@@ -1,7 +1,6 @@
-<div class="pre-footer sqs-col sqs-col-12">
 <div class="editions">
 <hr>
-<h5>Choose a CTbites edition &nbsp;  <select name = "edition" onchange="if (this.value) window.location.href=this.value">>
+<h5>Choose a CTbites edition &nbsp;  <select name = "edition" onchange="if (this.value) window.location.href=this.value">
 <option value = "">---Choose edition---</option>
 <option value = "Fairfield">Fairfield</option>
 <option value = "Hartford">Hartford</option>
@@ -12,9 +11,4 @@
 
 </select></h5>
 
-</div>
-
-<div class = "bottomad">
-<a href = "#"><img src = "/assets/iab_728x90.gif"></a>
-</div>
 </div>
