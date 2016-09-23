@@ -37,5 +37,4 @@
         </div>
         {@|apply searchoverlay.block}
         </div> <!-- page-body-wrapper -->
-        <div class="clearer sqs-col sqs-col-12">&nbsp;</div>
       </div>
