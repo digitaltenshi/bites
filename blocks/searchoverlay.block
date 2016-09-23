@@ -1,5 +1,5 @@
 <div id = "searchoverlay" class = "hide">
-<span class="searchoverlay-close-btn"><img src = "/assets/close.svg" id="searchoverlayclose"></span>
+<span class="searchoverlay-close-btn"><img src = "/assets/close.png" id="searchoverlayclose"></span>
 <div style = "overlaybg">
 
 <div id = "searchoverlayform">
