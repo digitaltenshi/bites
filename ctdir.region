@@ -91,14 +91,6 @@
 <span class = "weblink">{customContent.webLink.html}</span>{.end}</span>
 {.end}
 
-
-
-
-
-
-
-  
-
   </div>
    <div class = "clear clearfix"></div>
   </div>
@@ -114,8 +106,15 @@
 
               <div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
               <div id="sidebar-one" class="vertical-navigation-bar">
-                <squarespace:block-field id="directory-ad-1" description="Directory Ad Space 1"/>
-                <squarespace:block-field id="directory-ad-2" description="Directory Ad Space 2"/>
+                <div class="sponsors">
+                  <h3>Our Sponsors</h3>
+                  <div class="doubleclick-ad">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=directory-ad-1%20300x250&w=300&h=250"/>
+                  </div>
+                  <div class="doubleclick-ad">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=directory-ad-2%20300x250&w=300&h=250"/>
+                  </div>
+                </div>
 
                 {.section website}
                 
@@ -125,7 +124,8 @@
             </div><!-- sidebar-one-wrapper -->
 
           <div class="clearer" id="body-clearer"></div>
-           {@|apply editions.block} 
+           {@|apply editions.block}
+           {@|apply bottom-banner-directory.block} 
           </div>
            {@|apply searchoverlay.block} 
         </div> <!-- page-body-wrapper -->
