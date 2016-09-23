@@ -1,99 +1,5 @@
-<style>
-#searchoverlayform hr {
-  width: 50%;
-  color: transparent;
-  background-color: transparent;
-  border-top: solid 1px #CCC;
-  max-height: 1px;
-  clear: both;
-  display: block;
-  margin: 20px auto;
-}
-
-#searchoverlayform #q {
-  background-color: transparent;
-  border: solid 1px #FFF;
-  padding: 15px 10px;
-  color: #FFF;
-  font-size: 20px;
-  width: 300px;
-  text-align: right;
-  margin-right: 15px;
-}
-
-::-webkit-input-placeholder {
-color: #FFF; 
-}
-:-moz-placeholder { /* older Firefox*/
-color: #FFF; 
-}
-::-moz-placeholder { /* Firefox 19+ */ 
- color: #FFF; 
-} 
-:-ms-input-placeholder { 
-color: #FFF; 
-}
-
-div#searchoverlayform {
-    background-color: #a2ce19;
-    clear: both;
-    padding: 50px 50px;
-}
-
-#searchoverlay form#directory-action {
-    width: 70%;
-    width: 99%;
-    display: inline-block;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.overlay-edition {
-    width: 25%;
-    display: inline-block;
-}
-
-#regularsearch {
-  margin: 0 auto;
-  width: 900px;
-  text-align: center;
-}
-
-
-.overlay-edition select {
-    width: 190px;
-    margin-right: 30px;
-    font-size: 15px;
-    margin-top: 0;
-    padding-top: 0;
-    -webkit-appearance: none;
-    border: solid 1px #ccc;
-    background-color: #fff;
-    border-radius: 4px;
-    padding: 1px 10px;
-    background-image: url(https://static1.squarespace.com/static/ta/55ce1e48e4b06614877a8bfb/2292/assets/select_widget.png);
-    background-size: 15px 20px;
-    background-repeat: no-repeat;
-    background-position: right;
-    color: #777;
-    margin-bottom: 10px;
-}
-
-input#searchtext {
-    margin-right: 20px;
-    width: 90px;
-    color: #777;
-}
-
-input#searchbtn {
-    width: 38px;
-    margin-right: 40px;
-}
-</style>
-
 <div id = "searchoverlay" class = "hide">
-<img src = "/assets/close.svg" id="searchoverlayclose">
+<span class="searchoverlay-close-btn"><img src = "/assets/close.svg" id="searchoverlayclose"></span>
 <div style = "overlaybg">
 
 <div id = "searchoverlayform">
@@ -155,20 +61,6 @@ input#searchbtn {
   </form>
 </div>
 
-<!--div class = "overlay-edition">
-
-<p>Select an edition</p>
-
-<select name = "edition" onchange="if (this.value) window.location.href=this.value">>
-<option value = "Fairfield">Fairfield</option>
-<option value = "Hartford">Hartford</option>
-<option value = "Litchfield">Litchfield</option>
-<option value = "New Haven">New Haven</option>
-<option value = "Shorline East">Shorline East</option>
-<option value = "http://www.miabites.com/">Miami</option>
-
-</select>
-</div -->
 
 
 
