@@ -1,0 +1,41 @@
+<div id="page-body-wrapper" class="one-sidebar">
+  <div id="page-body" class = "sqs-col sqs-col-12">
+    <div id="content-wrapper">
+      <div id="content-restaurants" class = "sqs-col sqs-col-12">
+        <div id="page-body-header" class="extra-wrapper">
+          <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" />
+        </div>
+        <div class="clearer sqs-col sqs-col-12">&nbsp;</div>
+        <div class = "sqs-col sqs-col-8" id = "main-restaurants">
+          {squarespace.main-content}
+        </div>
+        <div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
+          <div id="sidebar-one" class="vertical-navigation-bar">
+            <div class="sponsors">
+              <h3>Our Sponsors</h3>
+              <div class="doubleclick-ad">
+                <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=restaurants-ad-1%20300x250&w=300&h=250"/>
+              </div>
+            </div>
+            
+            {.section website}
+            {.end}
+            <div id="regform-wrapper" class = "sqs-col sqs-col-12">
+              <div id="reg-form" class = "sqs-col sqs-col-12">
+                <squarespace:block-field id="regform"  />
+              </div>
+            </div>
+            
+            <squarespace:block-field id="sidebar-one-blocks" description="The block field for sidebar 1" />
+          </div>
+          </div><!-- sidebar-one-wrapper -->
+          
+          </div> <!-- content-wrapper -->
+          <div class="clearer" id="body-clearer"></div>
+          {@|apply editions.block}
+          {@|apply bottom-banner-restaurants.block}
+        </div>
+        {@|apply searchoverlay.block}
+        </div> <!-- page-body-wrapper -->
+        <div class="clearer sqs-col sqs-col-12">&nbsp;</div>
+      </div>
