@@ -41,12 +41,14 @@
 						<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=home-ad-4%20300x250&w=300&h=250"/>
 					</div>
 				</div>
-			
+
+				<div class="custom-content">
+					<squarespace:block-field id="sidebar-home-block" description="Custom content - homepage sidebar only" />
+				</div>
 				{.section website}
-				
 				{.end}
-			
-	  		</div>
+				
+			</div>
 		</div><!-- sidebar-one-wrapper -->
 
 	  <div class="pre-footer sqs-col sqs-col-12">
