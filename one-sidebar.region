@@ -1,36 +1,44 @@
-
-        <div id="page-body-wrapper" class="one-sidebar">
-          <div id="page-body" class = "sqs-col sqs-col-12">
-
-            <div id="content-wrapper">
-              <div id="content" class = "sqs-col sqs-col-9">
-
-                <div id="page-body-header" class="extra-wrapper">
-                  <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" />
-                </div>
-                {squarespace.main-content}
-                <div id="page-body-footer" class="extra-wrapper">
-                  <squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" />
-                </div>
-                    
+<div id="page-body-wrapper" class="one-sidebar">
+  <div id="page-body" class = "sqs-col sqs-col-12">
+    <div id="content-wrapper">
+      <div id="content-restaurants" class = "sqs-col sqs-col-12">
+        <div id="page-body-header" class="extra-wrapper">
+          <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" />
+        </div>
+        <div class="clearer sqs-col sqs-col-12">&nbsp;</div>
+        <div class = "sqs-col sqs-col-8" id = "main-restaurants">
+          {squarespace.main-content}
+        </div>
+        <div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
+          <div id="sidebar-one" class="vertical-navigation-bar">
+            <div class="sponsors">
+              <h3>Our Sponsors</h3>
+              <!-- /11160298/Sidebar_300x250_General_1 -->
+              <div id='div-gpt-ad-1475086344521-7' style='height:250px; width:300px;'>
+              <script>
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475086344521-7'); });
+              </script>
               </div>
-            </div> <!-- content-wrapper -->
-           
-
-            <div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">
-              <div id="sidebar-one" class="vertical-navigation-bar">
-                
-                {.section website}
-                
-                {.end}
-                <squarespace:block-field id="sidebar-one-blocks" description="The block field for sidebar 1" />
+            </div>
+            
+            {.section website}
+            {.end}
+            <div id="regform-wrapper" class = "sqs-col sqs-col-12">
+              <div id="reg-form" class = "sqs-col sqs-col-12">
+                <squarespace:block-field id="regform"  />
               </div>
-            </div><!-- sidebar-one-wrapper -->
-
-          <div class="clearer" id="body-clearer"></div>
- {@|apply editions.block} 
+            </div>
+            
+            <squarespace:block-field id="sidebar-one-blocks" description="The block field for sidebar 1" />
           </div>
-          {@|apply searchoverlay.block} 
+          </div><!-- sidebar-one-wrapper -->
+          
+          </div> <!-- content-wrapper -->
+          <div class="clearer" id="body-clearer"></div>
+          {@|apply editions.block}
+          {@|apply bottom-banner-general.block}
+        </div>
+        {@|apply searchoverlay.block}
         </div> <!-- page-body-wrapper -->
-         <div class="clearer sqs-col sqs-col-12">&nbsp;</div>
-        
+        <div class="clearer sqs-col sqs-col-12">&nbsp;</div>
+      </div>

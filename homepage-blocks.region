@@ -28,7 +28,6 @@
 	  		<div id="sidebar-one" class="vertical-navigation-bar">
 				<div class="sponsors">
 					<h3>Our Sponsors</h3>
-					<div class="double-click-ads-medium"> <!-- Medium Google ads 300x250 -->
 						<!-- /11160298/Sidebar_300x250_Home_1 -->
 						<div id='div-gpt-ad-1474687809144-0'>
 						<script>
@@ -56,10 +55,6 @@
 						googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474687809144-3'); });
 						</script>
 						</div>
-					</div> <!-- END Medium Google Ads -->
-					<div class="double-click-ads-medium"> <!-- Small Google ads 250x250 -->
-
-					</div> <!-- END Small Google Ads -->
 				</div>
 
 				<div class="custom-content">

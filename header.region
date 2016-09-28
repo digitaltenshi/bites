@@ -16,15 +16,30 @@
 
     <script>
       googletag.cmd.push(function() {
-        //Homepage medium
+        //Homepage Ads
         googletag.defineSlot('/11160298/Sidebar_300x250_Home_1', [300, 250], 'div-gpt-ad-1474687809144-0').addService(googletag.pubads());
         googletag.defineSlot('/11160298/Sidebar_300x250_Home_2', [300, 250], 'div-gpt-ad-1474687809144-1').addService(googletag.pubads());
         googletag.defineSlot('/11160298/Sidebar_300x250_Home_3', [300, 250], 'div-gpt-ad-1474687809144-2').addService(googletag.pubads());
         googletag.defineSlot('/11160298/Sidebar_300x250_Home_4', [300, 250], 'div-gpt-ad-1474687809144-3').addService(googletag.pubads());
-        //Homepage small
-
-        //Homepage banner
         googletag.defineSlot('/11160298/Banner_728x90_Home', [728, 90], 'div-gpt-ad-1474687809144-4').addService(googletag.pubads());
+
+        //Directory Page Ads
+        googletag.defineSlot('/11160298/Sidebar_300x250_Directory_1', [300, 250], 'div-gpt-ad-1475086344521-4').addService(googletag.pubads());
+        googletag.defineSlot('/11160298/Sidebar_300x250_Directory_2', [300, 250], 'div-gpt-ad-1475086344521-5').addService(googletag.pubads());
+        googletag.defineSlot('/11160298/Banner_728x90_Directory', [728, 90], 'div-gpt-ad-1475086344521-0').addService(googletag.pubads());
+        
+        //Features Page Ads
+        googletag.defineSlot('/11160298/Sidebar_300x250_Features_1', [300, 250], 'div-gpt-ad-1475086344521-6').addService(googletag.pubads());
+        googletag.defineSlot('/11160298/Banner_728x90_Features', [728, 90], 'div-gpt-ad-1475086344521-1').addService(googletag.pubads());
+
+        //Restaurant Page Ads
+        googletag.defineSlot('/11160298/Sidebar_300x250_Restaurants_1', [300, 250], 'div-gpt-ad-1475086344521-8').addService(googletag.pubads());
+        googletag.defineSlot('/11160298/Banner_728x90_Restaurants', [728, 90], 'div-gpt-ad-1475086344521-3').addService(googletag.pubads());
+
+        // Generic Page Ads
+        googletag.defineSlot('/11160298/Sidebar_300x250_General_1', [300, 250], 'div-gpt-ad-1475086344521-7').addService(googletag.pubads());
+        googletag.defineSlot('/11160298/Banner_728x90_General', [728, 90], 'div-gpt-ad-1475086344521-2').addService(googletag.pubads());
+        
         
       
         googletag.pubads().enableSingleRequest();
