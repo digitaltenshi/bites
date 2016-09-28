@@ -4,6 +4,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Google Double Click Ad management -->
+    <script>
+      (function() {
+        var useSSL = 'https:' == document.location.protocol;
+        var src = (useSSL ? 'https:' : 'http:') +
+            '//www.googletagservices.com/tag/js/gpt.js';
+        document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+      })();
+    </script>
+
+    <script>
+      googletag.cmd.push(function() {
+        //Homepage medium
+        googletag.defineSlot('/11160298/Sidebar_300x250_Home_1', [300, 250], 'div-gpt-ad-1474687809144-0').addService(googletag.pubads());
+        googletag.defineSlot('/11160298/Sidebar_300x250_Home_2', [300, 250], 'div-gpt-ad-1474687809144-1').addService(googletag.pubads());
+        googletag.defineSlot('/11160298/Sidebar_300x250_Home_3', [300, 250], 'div-gpt-ad-1474687809144-2').addService(googletag.pubads());
+        googletag.defineSlot('/11160298/Sidebar_300x250_Home_4', [300, 250], 'div-gpt-ad-1474687809144-3').addService(googletag.pubads());
+        //Homepage small
+
+        //Homepage banner
+        googletag.defineSlot('/11160298/Banner_728x90_Home', [728, 90], 'div-gpt-ad-1474687809144-4').addService(googletag.pubads());
+        
+      
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs();
+        googletag.enableServices();
+      });
+    </script>
+
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
     {squarespace-headers}
   </head>
