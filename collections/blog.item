@@ -84,7 +84,7 @@
     <h2>Related</h2>
 
 {.repeated section tags}
-                <squarespace:query collection="blog" limit="4" tag="{@}">
+                <squarespace:query collection="blog" limit="2" tag="{@}">
                         {.if items}
                         <div class="post-related-items-wrapper clear">
                             <div class="items">
