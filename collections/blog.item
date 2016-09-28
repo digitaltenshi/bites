@@ -9,20 +9,20 @@
   <article id="post-{id}" class="{@|item-classes}  {.repeated section tags}t_{@|slugify} {.end}  {.repeated section categories}c_{@|slugify} {.end}" data-item-id="{id}" style="float: right; width: 75%;">
 <div class = "blog-article-container">
   
+    <div class="categories"> <!--CATEGORIES-->
+    {.repeated section categories}
+      <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with} 
+    {.end}
+    </div>
     <!--TAGS-->
     <div class="tags">
-      <label>tags: </label>
     {.repeated section tags}
       <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with} 
     {.end}
     </div>
     
     <!--POST TILE-->
-    <h2 class="category"> <!--CATEGORIES-->
-    {.repeated section categories}
-      <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with} 
-    {.end}
-    </h2>
+    
     <h1 class="title" data-content-field="title">
       {.passthrough?}
         <a href="{sourceUrl}" target="_blank">{title}</a>
@@ -75,36 +75,35 @@
 
 
 
-    <div class = "related" style = "width: 20%; float: left;">
-     <h2>Share</h2>
-<div class = "share-widgets">{@|social-button}</div>
+  <div class = "related" style = "width: 20%; float: left;">
+    <h2>Share</h2>
+    <div class = "share-widgets">{@|social-button}</div>
 
-     {.if categories || tags}
+    {.if tags}
 
-    <h2>Related</h2>
+      <h2>Related</h2>
 
-{.repeated section tags}
-                <squarespace:query collection="blog" limit="2" tag="{@}">
-                        {.if items}
-                        <div class="post-related-items-wrapper clear">
-                            <div class="items">
-                                {.repeated section items}
-                                     <p data-content-field="title">
-      {.passthrough?}
-        <a href="{sourceUrl}" target="_blank">{title}</a>
-      {.or}
-        <a href="{fullUrl}">{title}</a>
-      {.end}
-    </p>                                                     
-                                {.end}
-                            </div>
-                        </div>
+      {.repeated section tags}
+        <squarespace:query collection="blog" limit="2" tag="{@}" skip="1">
+                {.if items}
+                <div class="post-related-items-wrapper clear">
+                    <div class="items">
+                        {.repeated section items}
+                           <p data-content-field="title">
+                            {.passthrough?}
+                              <a href="{sourceUrl}" target="_blank">{title}</a>
+                            {.or}
+                              <a href="{fullUrl}">{title}</a>
+                            {.end}
+                          </p>                                                     
                         {.end}
-                </squarespace:query>
-            {.end}
-      
-         {.end}
+                    </div>
+                </div>
+              {.end}
+        </squarespace:query>
+     {.end}
+  {.end}
 
 {.end}
-      </div>
+</div>
 
