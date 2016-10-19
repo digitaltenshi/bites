@@ -82,5 +82,35 @@
   </article>
 
 
-  <div class = "clear clearfix"></div>
+   <div class = "related" style = "width: 20%; float: left;">
+     <h2>Share</h2>
+     <div class = "share-widgets">{@|social-button}</div>
+
+     {.if tags}
+
+       <h2>Related</h2>
+
+       {.repeated section tags}
+         <squarespace:query collection="ctdir" limit="2" tag="{@}" skip="1">
+                 {.if items}
+                 <div class="post-related-items-wrapper clear">
+                     <div class="items">
+                         {.repeated section items}
+                            <p data-content-field="title">
+                             {.passthrough?}
+                               <a href="{sourceUrl}" target="_blank">{title}</a>
+                             {.or}
+                               <a href="{fullUrl}">{title}</a>
+                             {.end}
+                           </p>                                                     
+                         {.end}
+                     </div>
+                 </div>
+               {.end}
+         </squarespace:query>
+      {.end}
+   {.end}
+
+ {.end}
+ </div>
   
