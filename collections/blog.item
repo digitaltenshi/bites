@@ -25,9 +25,9 @@
     
     <h1 class="title" data-content-field="title">
       {.passthrough?}
-        <a href="{sourceUrl}" target="_blank">{title}</a>
+     <!--    <a href="{sourceUrl}" target="_blank">{title}</a>
       {.or}
-        <a href="{fullUrl}">{title}</a>
+         --><a href="{fullUrl}">{title}</a>
       {.end}
     </h1>
 
@@ -36,7 +36,7 @@
     <p class="meta">
       <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a> <time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time>
       {.section sourceUrl}
-        <a href="{@}" class="source" target="_blank">Source</a>
+        <a href="{@}" class="source" target="_blank">Website</a>
       {.end}
     </p>        
   
@@ -53,7 +53,6 @@
     <!--SHARE AND LIKE-->
 
     {@|like-button}
-    {@|social-button}
 
     <!--LOCATION-->
 

@@ -50,7 +50,6 @@
     <hr>
     <!--SHARE AND LIKE-->
     {@|like-button}
-    {@|social-button}
 
     <!--LOCATION-->
 
