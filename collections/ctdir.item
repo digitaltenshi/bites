@@ -57,9 +57,17 @@
 
     {.section location}
       {.section addressTitle}
-        <h3 class="location">{location.addressTitle}</h3>
+        <!-- <h3 class="location">{location.addressTitle}</h3>
         <h4 class = "location">{location.addressLine1}</h4>
-        <h4 class = "location">{location.addressLine2}</h4>
+        <h4 class = "location">{location.addressLine2}</h4> -->
+        {.if customContent.bus_address}
+          <span class = "addressinfo">
+          <h4>{location.addressTitle}</h4>
+          <p>{.if customContent.bus_city_st_zip}{customContent.bus_city_st_zip}{.end}</p>
+          {.if customContent.bus_phone}<p><span class = "phone">{customContent.bus_phone}</span></p>{.end}
+          {.if customContent.webLink.html}<span class = "weblink">{customContent.webLink.html}</span>{.end}
+          </span>
+        {.end}
       {.end}
     {.end}
 
