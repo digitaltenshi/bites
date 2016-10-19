@@ -47,9 +47,6 @@
 
     {postItemInjectCode}    
 
-    <hr>
-    <!--SHARE AND LIKE-->
-    {@|like-button}
 
     <!--LOCATION-->
 
@@ -70,7 +67,10 @@
       {.end}
     {.end}
 
-
+    <hr>
+    <!--SHARE AND LIKE-->
+    {@|like-button}
+    
     <!--COMMENTS-->
 
     {@|comments}
