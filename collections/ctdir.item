@@ -64,12 +64,13 @@
         <h4 class = "location">{location.addressLine1}</h4>
         <h4 class = "location">{location.addressLine2}</h4> -->
         {.if customContent.bus_address}
-          <span class = "addressinfo">
-          <h4>{location.addressTitle}</h4>
-          <p>{.if customContent.bus_city_st_zip}{customContent.bus_city_st_zip}{.end}</p>
-          {.if customContent.bus_phone}<p><span class = "phone">{customContent.bus_phone}</span></p>{.end}
-          {.if customContent.webLink.html}<span class = "weblink">{customContent.webLink.html}</span>{.end}
-          </span>
+          <div class = "addressinfo">
+            <h4>{location.addressTitle}</h4>
+            {.if customContent.bus_address}<span>{customContent.bus_address}</span>{.end}
+            {.if customContent.bus_city_st_zip}<span>{customContent.bus_city_st_zip}</span>{.end}
+            {.if customContent.bus_phone}<span class = "phone">{customContent.bus_phone}</span>{.end}
+            {.if customContent.webLink.html}<span class = "weblink">{customContent.webLink.html}</span>{.end}
+          </div>
         {.end}
       {.end}
     {.end}
@@ -91,7 +92,7 @@
        <h2>Related</h2>
 
        {.repeated section tags}
-         <squarespace:query collection="ctdir" limit="2" tag="{@}" skip="1">
+         <squarespace:query collection="new-ct-directory" limit="2" tag="{@}" skip="1">
                  {.if items}
                  <div class="post-related-items-wrapper clear">
                      <div class="items">

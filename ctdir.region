@@ -6,7 +6,7 @@
 
 <div id = "xdirectory-top">
   <squarespace:block-field id="directory-content" columns="12" />
-  
+
 <form name = "directory" id="directory-action" method = "get" action = "/directory/">
 <!-- form name = "directory" id="directory-action" -->
   <select id="cuisine" name = "cuisine">
@@ -75,8 +75,8 @@
   <!--POST TILE-->
     <h1 class="title" data-content-field="title">
       {.passthrough?}
-        <a href="{sourceUrl}" target="_blank">{title}</a>
-      {.or}
+        <!-- <a href="{sourceUrl}" target="_blank">{title}</a>
+      {.or} -->
         <a href="{fullUrl}">{title}</a>
       {.end}
     </h1>
@@ -87,9 +87,18 @@
     {excerpt}
 
     {.if customContent.bus_address}
-    <span class = "addressinfo"><p>{customContent.bus_address} | {.if customContent.hasMap}<a href="{fullUrl}" target="_blank">Map</a>{.end}</p><p>{.if customContent.bus_city_st_zip}{customContent.bus_city_st_zip}{.end}</p>{.if customContent.bus_phone}<p><span class = "phone">{customContent.bus_phone}</span></p>{.end}{.if customContent.webLink.html}
-<span class = "weblink">{customContent.webLink.html}</span>{.end}</span>
-{.end}
+      <div class = "addressinfo">
+        <h4>{location.addressTitle}</h4>
+        {.if customContent.bus_address} {.if customContent.hasMap}| <a href="{fullUrl}" target="_blank">Map</a>{.end}
+          <span>
+            {customContent.bus_address}
+          </span>
+        {.end}
+        {.if customContent.bus_city_st_zip}<span>{customContent.bus_city_st_zip}</span>{.end}
+        {.if customContent.bus_phone}<span class = "phone">{customContent.bus_phone}</span>{.end}
+        {.if customContent.webLink.html}<span class = "weblink">{customContent.webLink.html}</span>{.end}
+      </div>
+    {.end}
 
   </div>
    <div class = "clear clearfix"></div>
