@@ -74,11 +74,7 @@
 <div class = "summary-info">
   <!--POST TILE-->
     <h1 class="title" data-content-field="title">
-      {.passthrough?}
-        <!-- <a href="{sourceUrl}" target="_blank">{title}</a>
-      {.or} -->
-        <a href="{fullUrl}">{title}</a>
-      {.end}
+     <a href="{fullUrl}">{title}</a>
     </h1>
 
 {.repeated section tags}
@@ -89,9 +85,8 @@
     {.if customContent.bus_address}
       <div class = "addressinfo">
         <h4>{location.addressTitle}</h4>
-        {.if customContent.bus_address} {.if customContent.hasMap}| <a href="{fullUrl}" target="_blank">Map</a>{.end}
-          <span>
-            {customContent.bus_address}
+           <span>
+            {customContent.bus_address} {.if customContent.bus_address} {.if customContent.hasMap}| <a href="{fullUrl}" target="_blank">Map</a>{.end}
           </span>
         {.end}
         {.if customContent.bus_city_st_zip}<span>{customContent.bus_city_st_zip}</span>{.end}
