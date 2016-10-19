@@ -58,6 +58,12 @@
 <div class = "noresults hide"><p><strong>Sorry, there were no results.  Please try a different combination of filters.</strong></p></div>
 <squarespace:query collection="new-ct-directory" limit="100">
 
+!-- TAG FILTER RESULTS ex: http://base-template.squarespace.com/blog/?tag=tag2 -->
+
+{.section tagFilter}
+  <h4 class="filter--text">Filtering by Tags: {@|safe}</h4>
+{.end}
+
 {.repeated section items}
 <div class = "summary {.repeated section tags}{@|slugify}{.alternates with} {.end}">
 
