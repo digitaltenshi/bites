@@ -1,0 +1,30 @@
+<!--ITEM LOOP-->
+
+{.repeated section items}
+
+  <!--WRAPPER-->
+  <article id="post-{id}" class="{@|item-classes}  {.repeated section tags}t_{@|slugify} {.end}  {.repeated section categories}c_{@|slugify} {.end}" data-item-id="{id}">
+
+  <!--POST TILE-->
+
+  <h1 class="title" data-content-field="title">
+    {.passthrough?}
+      <a href="{sourceUrl}" target="_blank">{title}</a>
+    {.or}
+      <a href="{fullUrl}">{title}</a>
+    {.end}
+  </h1>
+
+  <!--EXCERPT -->
+
+  {.if excerpt}
+    {excerpt}
+    <p><a class="link" href="{fullUrl}">Read More</a></p>
+
+  {.end}
+
+  </article>
+
+    {.or}
+      No blog posts yet.
+  {.end}
