@@ -5,8 +5,8 @@
 <main id="content" class="content" role="main" data-content-field="main-content">
 
 <div id = "xdirectory-top">
-  <p><strong><em>Find a nice place to grab a bite</em></strong>
-</p>
+  <squarespace:block-field id="directory-content" columns="12" />
+  
 <form name = "directory" id="directory-action" method = "get" action = "/directory/">
 <!-- form name = "directory" id="directory-action" -->
   <select id="cuisine" name = "cuisine">
