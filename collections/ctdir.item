@@ -10,29 +10,29 @@
 
   <!--CATEGORIES-->
 
+    <div class="categories"> <!--CATEGORIES-->
     {.repeated section categories}
       <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with} 
     {.end}
-
+    </div>
     <!--TAGS-->
-
+    <div class="tags">
     {.repeated section tags}
       <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with} 
     {.end}
+    </div>
     
     <!--POST TILE-->
 
     <h1 class="title" data-content-field="title">
       {.passthrough?}
-        <a href="{sourceUrl}" target="_blank">{title}</a>
-      {.or}
+        <!-- <a href="{sourceUrl}" target="_blank">{title}</a>
+      {.or} -->
         <a href="{fullUrl}">{title}</a>
       {.end}
     </h1>
     <hr>
-    <!--SHARE AND LIKE-->
-    {@|like-button}
-    {@|social-button}
+   
 
         <!--AUTHOR AND DATE-->
     
@@ -51,7 +51,10 @@
 
     {postItemInjectCode}    
 
-    <br>
+    <hr>
+    <!--SHARE AND LIKE-->
+    {@|like-button}
+    {@|social-button}
 
     <!--LOCATION-->
 
