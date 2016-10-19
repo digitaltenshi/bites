@@ -7,7 +7,7 @@
 
 
   <article id="post-{id}" class="{@|item-classes}  {.repeated section tags}t_{@|slugify} {.end}  {.repeated section categories}c_{@|slugify} {.end}" data-item-id="{id}" style="float: right; width: 75%;">
-
+  <div class = "blog-article-container">
   <!--CATEGORIES-->
 
     <div class="categories"> <!--CATEGORIES-->
@@ -78,7 +78,7 @@
     <!--COMMENTS-->
 
     {@|comments}
-
+</div>
   </article>
 
 
