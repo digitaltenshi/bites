@@ -1,10 +1,10 @@
-<div id = "searchoverlay" class = "hide">
-<span class="searchoverlay-close-btn"><img src = "/assets/close.png" id="searchoverlayclose"></span>
-<div style = "overlaybg">
+<div id="searchoverlay" class="hide">
+<span class="searchoverlay-close-btn"><img src ="/assets/close.png" id="searchoverlayclose"></span>
+<div style="overlaybg">
 
-<div id = "searchoverlayform">
-<form name = "regularsearch" id = "regularsearch" method = "get" action = "/search/">
-<input id = "q" name = "q" type = "text" placeholder = "Search...">
+<div id="searchoverlayform">
+<form name="regularsearch" id="regularsearch" method="get" action="/search/">
+<input id="q" name="q" type="text" placeholder="Search...">
 <!--select name = "where" id = "searchwhere">
 <option value = "features">in Features</option>
 <option value = "recipes">in Recipes</option>
@@ -21,41 +21,59 @@
 <div class = "overlay-directory">
 <p>Find a restaurant</p>
   <select id="cuisine" name = "cuisine">
-    <option value = "">Any Cuisine</option>
-    <option value = "american">American</option>
-    <option value = "chinese">Chinese</option>
-    <option value = "cocktails">Cocktails</option>
-    <option value = "farm-to-table">Farm to Table</option>
-    <option value = "french">French</option>
-    <option value = "greek">Greek</option>
-    <option value = "italian">Italian</option>
-    <option value = "mexican">Mexican</option>
-    <option value = "pizza">Pizza</option>
-    <option value = "spanish">Spanish</option>
-    <option value = "thai">Thai</option>
-  </select>
-  <select id = "town" name = "town">
-    <option value = "">Any Town</option>
-    <option value = "danbury">Danbury</option>
-    <option value = "darien">Darien</option>
-    <option value = "fairfield">Fairfield</option>
-    <option value = "greenwich">Greenwich</option>
-    <option value = "hartford">Hartford</option>
-    <option value = "kent">Kent</option>
-    <option value = "new-haven">New Haven</option>
-    <option value = "norwalk">Norwalk</option>
-    <option value = "stamford">Stamford</option>
-    <option value = "westport">Westport</option>  
-  </select>
-  
-  <select id="mealtype" name = "mealtype">
-  <option value = "">Any Meal Type</option>
-  <option value = "brunch">Brunch</option>
-  <option value = "lunch">Lunch</option>
-  <option value = "dinner">Dinner</option>
-  <option value = "drinks">Drinks</option>
-  <option value = "delicious-dives">Delicious Dives</option>
-  </select>
+      <option value = "">Any Cuisine</option>
+      <option value="American">American</option>
+      <option value="Asian">Asian</option>
+      <option value="BBQ">BBQ</option>
+      <option value="Indian">Indian</option>
+      <option value="Italian">Italian</option>
+      <option value="Japanese">Japanese</option>
+      <option value="Korean">Korean</option>
+      <option value="Latin">Latin</option>
+      <option value="Thai">Thai</option>
+      <option value="Vietnamese">Vietnamese</option>
+      <option value="Mexican">Mexican</option>
+      <option value="Chinese">Chinese</option>
+      <option value="Pizza">Pizza</option>
+      <option value="Spanish">Spanish</option>
+      <option value="Seafood">Seafood</option>
+      <option value="French">French</option>
+      <option value="Greek">Greek</option>
+      <option value="Farm To Table">Farm To Table</option>
+    </select>
+    <select id = "town" name = "town">
+      <option value = "">Any Town</option>
+      <option value = "danbury">Danbury</option>
+      <option value = "darien">Darien</option>
+      <option value = "fairfield">Fairfield</option>
+      <option value = "greenwich">Greenwich</option>
+      <option value = "hartford">Hartford</option>
+      <option value = "kent">Kent</option>
+      <option value = "new-haven">New Haven</option>
+      <option value = "norwalk">Norwalk</option>
+      <option value = "stamford">Stamford</option>
+      <option value = "westport">Westport</option>  
+    </select>
+    
+    <select id="mealtype" name = "mealtype">
+    <option value = "">Any Meal Type</option>
+    <option value = "Brunch">Brunch</option>
+    <option value = "Breakfast">Breakfast</option>
+    <option value = "Coffee and Tea">Coffee and Tea</option>
+    <option value = "Dessert">Dessert</option>
+    <option value = "Lunch">Lunch</option>
+    <option value = "Kid Friendly">Kid Friendly</option>
+    <option value = "Food Truck">Food Truck</option>
+    <option value = "Comfort Food">Comfort Food</option>
+    <option value = "Fine Dining">Fine Dining</option>
+    <option value = "Farm To Table">Farm To Table</option>
+    <option value = "Special Diet">Special Diet</option>
+    <option value = "Date Night">Date Night</option>
+    <option value = "Take Out<">Take Out</option>
+    <option value = "Outdoor Dining">Outdoor Dining</option>
+    <option value = "Bar Scene">Bar Scene</option>
+    <option value = "Delicious Dive">Delicious Dive</option>
+    </select>
 
   <input type="submit" style="border-top-width:0px;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;border-color:#dddddd;border-style:solid;background-color:#777777;color:#FFF;font-size:14px;font-weight:bold;font-style:normal;font-family:Arial;text-align:center;box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-o-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);background-size:auto;background-repeat:repeat;background-position:center center;padding-top:6px;padding-right:10px;padding-bottom:6px;padding-left:10px;position:absolute;width:54px;height:30px;;" class="ElButton active " value="Go" id="el4413856_a8a7a67e55df66a20a1711da8a5f2e4c">
   </form>
