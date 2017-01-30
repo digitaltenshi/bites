@@ -116,7 +116,7 @@
     </h1>
 
 {.repeated section tags}
-      <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with} 
+      <a class="tag" href="/directory/?tag={@|url-encode}">{@}</a>{.alternates with} 
     {.end}
     {excerpt}
 
