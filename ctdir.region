@@ -94,7 +94,7 @@
 <div class = "col sqs-col-8 span-8">
 <div class = "instructions"><p><strong>Use the filters above to find what you're looking for.</strong></p></div>
 <div class = "noresults hide"><p><strong>Sorry, there were no results.  Please try a different combination of filters.</strong></p></div>
-<squarespace:query collection="new-ct-directory" limit="1000">
+<squarespace:query collection="new-ct-directory" limit="100">
 
 {.repeated section items}
 <div class = "summary {.repeated section tags}{@|slugify}{.alternates with} {.end}">
