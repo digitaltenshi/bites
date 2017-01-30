@@ -6,7 +6,7 @@
           <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" />
         </div>
         <div class="clearer sqs-col sqs-col-12">&nbsp;</div>
-        <div class = "sqs-col sqs-col-8" id = "main-restaurants">
+        <div class = "sqs-col sqs-col-8" id = "main-column">
           {squarespace.main-content}
         </div>
         <div id="sidebar-one-wrapper" class="vertical-navigation-bar-wrapper sqs-col sqs-col-3">

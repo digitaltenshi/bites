@@ -5,88 +5,50 @@
 <main id="content" class="content" role="main" data-content-field="main-content">
 
 <div id = "xdirectory-top">
-  <squarespace:block-field id="directory-content" columns="12" />
-
-<form name = "directory" id="directory-action" method = "get" action = "/directory/">
-  <select id = "town" name = "town">
-    <option value = "">Any Town</option>
-    <option value ="bethel">Bethel</option>
-    <option value ="branford">Branford</option>
-    <option value ="bridgeport">Bridgeport</option>
-    <option value ="danbury">Danbury</option>
-    <option value ="darien">Darien</option>
-    <option value ="fairfield">Fairfield</option>
-    <option value ="greater-hartford">Greater Hartford</option>
-    <option value ="greenwich">Greenwich</option>
-    <option value ="guilford">Guilford</option>
-    <option value ="hamden">Hamden</option>
-    <option value ="hartford">Hartford</option>
-    <option value ="ledyard">Ledyard</option>
-    <option value ="litchfield">Litchfield</option>
-    <option value ="manchester">Manchester</option>
-    <option value ="middletown">Middletown</option>
-    <option value ="milford">Milford</option>
-    <option value ="new-canaan">New Canaan</option>
-    <option value ="new-haven">New Haven</option>
-    <option value ="new-london">New London</option>
-    <option value ="newtown">Newtown</option>
-    <option value ="norwalk">Norwalk</option>
-    <option value ="redding">Redding</option>
-    <option value ="ridgefield">Ridgefield</option>
-    <option value ="shelton">Shelton</option>
-    <option value ="shoreline-east">Shoreline East</option>
-    <option value ="simsbury">Simsbury</option>
-    <option value ="sono">SONO</option>
-    <option value ="stamford">Stamford</option>
-    <option value ="stratford">Stratford</option>
-    <option value ="trumbull">Trumbull</option>
-    <option value ="washington">Washington</option>
-    <option value ="west-hartford">West Hartford</option>
-    <option value ="westport">Westport</option>
-    <option value ="wilton-weston">Wilton/Weston 
-  </select>
+  <p><strong><em>Find a nice place to grab a bite</em></strong>
+</p>
+<form name = "restaurant-search" id="restaurant-action" method = "get" action = "/restaurant-search/">
+<!-- form name = "directory" id="directory-action" -->
   <select id="cuisine" name = "cuisine">
     <option value = "">Any Cuisine</option>
-    <option value="american">American</option>
-    <option value="asian">Asian</option>
-    <option value="BBQ">BBQ</option>
-    <option value="indian">Indian</option>
-    <option value="italian">Italian</option>
-    <option value="japanese">Japanese</option>
-    <option value="korean">Korean</option>
-    <option value="latin">Latin</option>
-    <option value="thai">Thai</option>
-    <option value="vietnamese">Vietnamese</option>
-    <option value="mexican">Mexican</option>
-    <option value="chinese">Chinese</option>
-    <option value="pizza">Pizza</option>
-    <option value="spanish">Spanish</option>
-    <option value="seafood">Seafood</option>
-    <option value="french">French</option>
-    <option value="greek">Greek</option>
-    <option value="farm-to-table">Farm To Table</option>
+    <option value = "american">American</option>
+    <option value = "chinese">Chinese</option>
+    <option value = "cocktails">Cocktails</option>
+    <option value = "farm-to-table">Farm to Table</option>
+    <option value = "french">French</option>
+    <option value = "greek">Greek</option>
+    <option value = "italian">Italian</option>
+    <option value = "mexican">Mexican</option>
+    <option value = "pizza">Pizza</option>
+    <option value = "spanish">Spanish</option>
+    <option value = "thai">Thai</option>
   </select>
+  <select id = "town" name = "town">
+    <option value = "">Any Town</option>
+    <option value = "danbury">Danbury</option>
+    <option value = "darien">Darien</option>
+    <option value = "fairfield">Fairfield</option>
+    <option value = "greenwich">Greenwich</option>
+    <option value = "hartford">Hartford</option>
+    <option value = "kent">Kent</option>
+    <option value = "new-haven">New Haven</option>
+    <option value = "norwalk">Norwalk</option>
+    <option value = "stamford">Stamford</option>
+    <option value = "westport">Westport</option>  
+  </select>
+  
   <select id="mealtype" name = "mealtype">
-    <option value = "">Any Meal Type</option>
-    <option value = "brunch">Brunch</option>
-    <option value = "breakfast">Breakfast</option>
-    <option value = "coffee-and-tea">Coffee and Tea</option>
-    <option value = "dessert">Dessert</option>
-    <option value = "lunch">Lunch</option>
-    <option value = "kid-friendly">Kid Friendly</option>
-    <option value = "food-truck">Food Truck</option>
-    <option value = "comfort-food">Comfort Food</option>
-    <option value = "fine-dining">Fine Dining</option>
-    <option value = "farm-to-table">Farm To Table</option>
-    <option value = "special-diet">Special Diet</option>
-    <option value = "date-night">Date Night</option>
-    <option value = "take-out<">Take Out</option>
-    <option value = "outdoor-dining">Outdoor Dining</option>
-    <option value = "bar-scene">Bar Scene</option>
-    <option value = "delicious-dive">Delicious Dive</option>
+  <option value = "">Any Meal Type</option>
+  <option value = "brunch">Brunch</option>
+  <option value = "lunch">Lunch</option>
+  <option value = "dinner">Dinner</option>
+  <option value = "drinks">Drinks</option>
+  <option value = "delicious-dives">Delicious Dives</option>
   </select>
 
 <input type="submit" style=";left:730px;top:47px;z-index:10057;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;border-color:#e2e1e9;border-style:solid;background-color:#a3cc31;color:#ffffff;font-size:20px;font-weight:;font-style:normal;font-family:'Bree Serif';text-align:center;box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-o-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);background-size:auto;background-repeat:repeat;background-position:center center;padding-top:0px;padding-right:10px;padding-bottom:0px;padding-left:10px;width:57px;height:40px;;" class="ElButton active " value="Go" id="filtergobutton2">
+
+  <!--input type="button" style=";left:730px;top:47px;z-index:10057;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;border-color:#e2e1e9;border-style:solid;background-color:#a3cc31;color:#ffffff;font-size:20px;font-weight:;font-style:normal;font-family:'Bree Serif';text-align:center;box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-o-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);background-size:auto;background-repeat:repeat;background-position:center center;padding-top:0px;padding-right:10px;padding-bottom:0px;padding-left:10px;width:57px;height:40px;;" class="ElButton active " value="Go" id="filtergobutton" -->
 </form>
 </div>
 
@@ -94,7 +56,7 @@
 <div class = "col sqs-col-8 span-8">
 <div class = "instructions"><p><strong>Use the filters above to find what you're looking for.</strong></p></div>
 <div class = "noresults hide"><p><strong>Sorry, there were no results.  Please try a different combination of filters.</strong></p></div>
-<squarespace:query collection="new-ct-directory" limit="100">
+<squarespace:query collection="blog" category="Restaurant" limit="100">
 
 {.repeated section items}
 <div class = "summary {.repeated section tags}{@|slugify}{.alternates with} {.end}">
@@ -112,7 +74,11 @@
 <div class = "summary-info">
   <!--POST TILE-->
     <h1 class="title" data-content-field="title">
-     <a href="{fullUrl}">{title}</a>
+      {.passthrough?}
+        <a href="{sourceUrl}" target="_blank">{title}</a>
+      {.or}
+        <a href="{fullUrl}">{title}</a>
+      {.end}
     </h1>
 
 {.repeated section tags}
@@ -121,17 +87,9 @@
     {excerpt}
 
     {.if customContent.bus_address}
-      <div class = "addressinfo">
-        <h4>{location.addressTitle}</h4>
-           <span>
-            {customContent.bus_address} {.if customContent.bus_address} {.if customContent.hasMap}| <a href="{fullUrl}" target="_blank">Map</a>{.end}
-          </span>
-        {.end}
-        {.if customContent.bus_city_st_zip}<span>{customContent.bus_city_st_zip}</span>{.end}
-        {.if customContent.bus_phone}<span class = "phone">{customContent.bus_phone}</span>{.end}
-        {.if customContent.webLink.html}<span class = "weblink">{customContent.webLink.html}</span>{.end}
-      </div>
-    {.end}
+    <span class = "addressinfo"><p>{customContent.bus_address} | {.if customContent.hasMap}<a href="{fullUrl}" target="_blank">Map</a>{.end}</p><p>{.if customContent.bus_city_st_zip}{customContent.bus_city_st_zip}{.end}</p>{.if customContent.bus_phone}<p><span class = "phone">{customContent.bus_phone}</span></p>{.end}{.if customContent.webLink.html}
+<span class = "weblink">{customContent.webLink.html}</span>{.end}</span>
+{.end}
 
   </div>
    <div class = "clear clearfix"></div>
