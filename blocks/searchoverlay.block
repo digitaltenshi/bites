@@ -5,6 +5,7 @@
 <div id="searchoverlayform">
 <form name="regularsearch" id="regularsearch" method="get" action="/search/">
 <input id="q" name="q" type="text" placeholder="Search...">
+<input type="hidden" name="f_collectionId" value="563c14cbe4b0edcbe138326e"/>
 <!--select name = "where" id = "searchwhere">
 <option value = "features">in Features</option>
 <option value = "recipes">in Recipes</option>
