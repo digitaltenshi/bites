@@ -12,49 +12,13 @@
 
 <hr>
 <div class="tagSearch">
-<h4>Search by Terms</h4>
+<h4>Search by Tags</h4>
 <form name='searchTag' id='tagSearch' method="get" action="/blog/">
-<select id="cuisine" name="tag">
-	<optgroup label="Cuisine">
-		<option value="American">American</option>
-		<option value="Asian">Asian</option>
-		<option value="BBQ">BBQ</option>
-		<option value="Indian">Indian</option>
-		<option value="Italian">Italian</option>
-		<option value="Japanese">Japanese</option>
-		<option value="Korean">Korean</option>
-		<option value="Latin">Latin</option>
-		<option value="Thai">Thai</option>
-		<option value="Vietnamese">Vietnamese</option>
-		<option value="Mexican">Mexican</option>
-		<option value="Chinese">Chinese</option>
-		<option value="Pizza">Pizza</option>
-		<option value="Ppanish">Spanish</option>
-		<option value="Seafood">Seafood</option>
-		<option value="French">French</option>
-		<option value="Greek">Greek</option>
-		<option value="Farm-to-Table">Farm To Table</option>
-	</optgroup>
-	<optgroup label="Meal Type">
-		<option value = "">Any Meal Type</option>
-		<option value = "Brunch">Brunch</option>
-		<option value = "breakfast">Breakfast</option>
-		<option value = "Tea And Coffee">Tea And Coffee</option>
-		<option value = "Dessert">Dessert</option>
-		<option value = "Lunch">Lunch</option>
-		<option value = "kid-friendly">Kid Friendly</option>
-		<option value = "food-truck">Food Truck</option>
-		<option value = "comfort-food">Comfort Food</option>
-		<option value = "fine-dining">Fine Dining</option>
-		<option value = "farm-to-table">Farm To Table</option>
-		<option value = "special-diet">Special Diet</option>
-		<option value = "date-night">Date Night</option>
-		<option value = "take-out<">Take Out</option>
-		<option value = "outdoor-dining">Outdoor Dining</option>
-		<option value = "bar-scene">Bar Scene</option>
-		<option value = "delicious-dive">Delicious Dive</option>
-	</optgroup>
-</select>
+<div class="tag-group">
+	<h4>Cuisine</h4>
+	<button name="tag" value="Asian">Asian</button>
+	<button name="tag" value="BBQ">BBQ</button>
+</div>
 <input type = "submit" value = "go" id = "searchmagnify" style="background:url(/assets/searchmagnify.svg) no-repeat; background-color: transparent; height:54px; width:54px; border: solid 1px #FFF; text-indent: -999999px;background-position: 13px 15px;">
 </form>
 </div>
