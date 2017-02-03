@@ -63,7 +63,7 @@
     <!--EXCERPT-->
     {.if excerpt}
       <div class="article--excerpt">{excerpt}</div>
-      <div><a class="link" href="{fullUrl}">Read More</a></div>
+      <div class="more-link"><a class="link" href="{fullUrl}">Read More</a></div>
     {.end}
 
     <!--BLOG INJECTION-->
