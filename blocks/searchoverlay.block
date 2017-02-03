@@ -6,7 +6,14 @@
 <form name="regularsearch" id="regularsearch" method="get" action="/search/">
 <input id="q" name="q" type="text" placeholder="Search...">
 <input type="hidden" name="f_collectionId" value="563c14cbe4b0edcbe138326e"/>
-<select id="cuisine" name="tag">
+
+<input type = "submit" value = "go" id = "searchmagnify" style="background:url(/assets/searchmagnify.svg) no-repeat; background-color: transparent; height:54px; width:54px; border: solid 1px #FFF; text-indent: -999999px;background-position: 13px 15px;">
+</form>
+
+<hr>
+<h3>Search by Terms</h3>
+<form name='searchTag' id='tagSearch' method="get" action="/blog/">
+<select id="cuisine" name = "cuisine">
   <option value = "">Any Cuisine</option>
   <option value="american">American</option>
   <option value="asian">Asian</option>
@@ -27,11 +34,8 @@
   <option value="greek">Greek</option>
   <option value="farm-to-table">Farm To Table</option>
 </select>
-
 <input type = "submit" value = "go" id = "searchmagnify" style="background:url(/assets/searchmagnify.svg) no-repeat; background-color: transparent; height:54px; width:54px; border: solid 1px #FFF; text-indent: -999999px;background-position: 13px 15px;">
 </form>
-
-<hr>
 
 <!-- <form name = "directory" id = "directory-action" method = "get" action = "/directory/">
 <div class = "overlay-directory">
