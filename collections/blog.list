@@ -62,7 +62,7 @@
     {.end}   
     <!--EXCERPT-->
     {.if excerpt}
-      {excerpt}
+      <div class="article--excerpt">{excerpt}</div>
       <div><a class="link" href="{fullUrl}">Read More</a></div>
     {.end}
 
