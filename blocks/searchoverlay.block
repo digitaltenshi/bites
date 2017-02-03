@@ -6,12 +6,27 @@
 <form name="regularsearch" id="regularsearch" method="get" action="/search/">
 <input id="q" name="q" type="text" placeholder="Search...">
 <input type="hidden" name="f_collectionId" value="563c14cbe4b0edcbe138326e"/>
-<!--select name = "where" id = "searchwhere">
-<option value = "features">in Features</option>
-<option value = "recipes">in Recipes</option>
-<option value = "directory">in Directory</option>
-<option value = "calendar">in Calendar</option>
-</select -->
+<select id="cuisine" name="tag">
+  <option value = "">Any Cuisine</option>
+  <option value="american">American</option>
+  <option value="asian">Asian</option>
+  <option value="BBQ">BBQ</option>
+  <option value="indian">Indian</option>
+  <option value="italian">Italian</option>
+  <option value="japanese">Japanese</option>
+  <option value="korean">Korean</option>
+  <option value="latin">Latin</option>
+  <option value="thai">Thai</option>
+  <option value="vietnamese">Vietnamese</option>
+  <option value="mexican">Mexican</option>
+  <option value="chinese">Chinese</option>
+  <option value="pizza">Pizza</option>
+  <option value="spanish">Spanish</option>
+  <option value="seafood">Seafood</option>
+  <option value="french">French</option>
+  <option value="greek">Greek</option>
+  <option value="farm-to-table">Farm To Table</option>
+</select>
 
 <input type = "submit" value = "go" id = "searchmagnify" style="background:url(/assets/searchmagnify.svg) no-repeat; background-color: transparent; height:54px; width:54px; border: solid 1px #FFF; text-indent: -999999px;background-position: 13px 15px;">
 </form>
