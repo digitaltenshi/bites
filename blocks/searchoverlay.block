@@ -11,135 +11,138 @@
 </form>
 
 <hr>
-<h3>Search by Terms</h3>
+<div class="tagSearch">
+<h4>Search by Terms</h4>
 <form name='searchTag' id='tagSearch' method="get" action="/blog/">
 <select id="cuisine" name="tag">
-  <option value = "">Any Cuisine</option>
-  <option value="American">American</option>
-  <option value="Asian">Asian</option>
-  <option value="BBQ">BBQ</option>
-  <option value="Indian">Indian</option>
-  <option value="Italian">Italian</option>
-  <option value="Japanese">Japanese</option>
-  <option value="Korean">Korean</option>
-  <option value="Latin">Latin</option>
-  <option value="Thai">Thai</option>
-  <option value="Vietnamese">Vietnamese</option>
-  <option value="Mexican">Mexican</option>
-  <option value="Chinese">Chinese</option>
-  <option value="Pizza">Pizza</option>
-  <option value="Ppanish">Spanish</option>
-  <option value="Seafood">Seafood</option>
-  <option value="French">French</option>
-  <option value="Greek">Greek</option>
-  <option value="Farm-to-Table">Farm To Table</option>
-</select>
-<select id="mealtype" name="tag">
-  <option value = "">Any Meal Type</option>
-  <option value = "Brunch">Brunch</option>
-  <option value = "breakfast">Breakfast</option>
-  <option value = "coffee-and-tea">Coffee and Tea</option>
-  <option value = "dessert">Dessert</option>
-  <option value = "lunch">Lunch</option>
-  <option value = "kid-friendly">Kid Friendly</option>
-  <option value = "food-truck">Food Truck</option>
-  <option value = "comfort-food">Comfort Food</option>
-  <option value = "fine-dining">Fine Dining</option>
-  <option value = "farm-to-table">Farm To Table</option>
-  <option value = "special-diet">Special Diet</option>
-  <option value = "date-night">Date Night</option>
-  <option value = "take-out<">Take Out</option>
-  <option value = "outdoor-dining">Outdoor Dining</option>
-  <option value = "bar-scene">Bar Scene</option>
-  <option value = "delicious-dive">Delicious Dive</option>
+	<optgroup label="Cuisine">
+		<option value="American">American</option>
+		<option value="Asian">Asian</option>
+		<option value="BBQ">BBQ</option>
+		<option value="Indian">Indian</option>
+		<option value="Italian">Italian</option>
+		<option value="Japanese">Japanese</option>
+		<option value="Korean">Korean</option>
+		<option value="Latin">Latin</option>
+		<option value="Thai">Thai</option>
+		<option value="Vietnamese">Vietnamese</option>
+		<option value="Mexican">Mexican</option>
+		<option value="Chinese">Chinese</option>
+		<option value="Pizza">Pizza</option>
+		<option value="Ppanish">Spanish</option>
+		<option value="Seafood">Seafood</option>
+		<option value="French">French</option>
+		<option value="Greek">Greek</option>
+		<option value="Farm-to-Table">Farm To Table</option>
+	</optgroup>
+	<optgroup label="Meal Type">
+		<option value = "">Any Meal Type</option>
+		<option value = "Brunch">Brunch</option>
+		<option value = "breakfast">Breakfast</option>
+		<option value = "Tea And Coffee">Tea And Coffee</option>
+		<option value = "Dessert">Dessert</option>
+		<option value = "Lunch">Lunch</option>
+		<option value = "kid-friendly">Kid Friendly</option>
+		<option value = "food-truck">Food Truck</option>
+		<option value = "comfort-food">Comfort Food</option>
+		<option value = "fine-dining">Fine Dining</option>
+		<option value = "farm-to-table">Farm To Table</option>
+		<option value = "special-diet">Special Diet</option>
+		<option value = "date-night">Date Night</option>
+		<option value = "take-out<">Take Out</option>
+		<option value = "outdoor-dining">Outdoor Dining</option>
+		<option value = "bar-scene">Bar Scene</option>
+		<option value = "delicious-dive">Delicious Dive</option>
+	</optgroup>
 </select>
 <input type = "submit" value = "go" id = "searchmagnify" style="background:url(/assets/searchmagnify.svg) no-repeat; background-color: transparent; height:54px; width:54px; border: solid 1px #FFF; text-indent: -999999px;background-position: 13px 15px;">
 </form>
+</div>
 
 <!-- <form name = "directory" id = "directory-action" method = "get" action = "/directory/">
 <div class = "overlay-directory">
 <p>Find a restaurant</p>
-    <select id = "town" name = "town">
-      <option value = "">Any Town</option>
-      <option value ="bethel">Bethel</option>
-      <option value ="branford">Branford</option>
-      <option value ="bridgeport">Bridgeport</option>
-      <option value ="danbury">Danbury</option>
-      <option value ="darien">Darien</option>
-      <option value ="fairfield">Fairfield</option>
-      <option value ="greater-hartford">Greater Hartford</option>
-      <option value ="greenwich">Greenwich</option>
-      <option value ="guilford">Guilford</option>
-      <option value ="hamden">Hamden</option>
-      <option value ="hartford">Hartford</option>
-      <option value ="ledyard">Ledyard</option>
-      <option value ="litchfield">Litchfield</option>
-      <option value ="manchester">Manchester</option>
-      <option value ="middletown">Middletown</option>
-      <option value ="milford">Milford</option>
-      <option value ="new-canaan">New Canaan</option>
-      <option value ="new-haven">New Haven</option>
-      <option value ="new-london">New London</option>
-      <option value ="newtown">Newtown</option>
-      <option value ="norwalk">Norwalk</option>
-      <option value ="redding">Redding</option>
-      <option value ="ridgefield">Ridgefield</option>
-      <option value ="shelton">Shelton</option>
-      <option value ="shoreline-east">Shoreline East</option>
-      <option value ="simsbury">Simsbury</option>
-      <option value ="sono">SONO</option>
-      <option value ="stamford">Stamford</option>
-      <option value ="stratford">Stratford</option>
-      <option value ="trumbull">Trumbull</option>
-      <option value ="washington">Washington</option>
-      <option value ="west-hartford">West Hartford</option>
-      <option value ="westport">Westport</option>
-      <option value ="wilton-weston">Wilton/Weston
-    </select>
-  <select id="cuisine" name = "cuisine">
-    <option value = "">Any Cuisine</option>
-    <option value="american">American</option>
-    <option value="asian">Asian</option>
-    <option value="BBQ">BBQ</option>
-    <option value="indian">Indian</option>
-    <option value="italian">Italian</option>
-    <option value="japanese">Japanese</option>
-    <option value="korean">Korean</option>
-    <option value="latin">Latin</option>
-    <option value="thai">Thai</option>
-    <option value="vietnamese">Vietnamese</option>
-    <option value="mexican">Mexican</option>
-    <option value="chinese">Chinese</option>
-    <option value="pizza">Pizza</option>
-    <option value="spanish">Spanish</option>
-    <option value="seafood">Seafood</option>
-    <option value="french">French</option>
-    <option value="greek">Greek</option>
-    <option value="farm-to-table">Farm To Table</option>
-  </select>
-  
-  <select id="mealtype" name = "mealtype">
-    <option value = "">Any Meal Type</option>
-    <option value = "brunch">Brunch</option>
-    <option value = "breakfast">Breakfast</option>
-    <option value = "coffee-and-tea">Coffee and Tea</option>
-    <option value = "dessert">Dessert</option>
-    <option value = "lunch">Lunch</option>
-    <option value = "kid-friendly">Kid Friendly</option>
-    <option value = "food-truck">Food Truck</option>
-    <option value = "comfort-food">Comfort Food</option>
-    <option value = "fine-dining">Fine Dining</option>
-    <option value = "farm-to-table">Farm To Table</option>
-    <option value = "special-diet">Special Diet</option>
-    <option value = "date-night">Date Night</option>
-    <option value = "take-out<">Take Out</option>
-    <option value = "outdoor-dining">Outdoor Dining</option>
-    <option value = "bar-scene">Bar Scene</option>
-    <option value = "delicious-dive">Delicious Dive</option>
-  </select>
+		<select id = "town" name = "town">
+			<option value = "">Any Town</option>
+			<option value ="bethel">Bethel</option>
+			<option value ="branford">Branford</option>
+			<option value ="bridgeport">Bridgeport</option>
+			<option value ="danbury">Danbury</option>
+			<option value ="darien">Darien</option>
+			<option value ="fairfield">Fairfield</option>
+			<option value ="greater-hartford">Greater Hartford</option>
+			<option value ="greenwich">Greenwich</option>
+			<option value ="guilford">Guilford</option>
+			<option value ="hamden">Hamden</option>
+			<option value ="hartford">Hartford</option>
+			<option value ="ledyard">Ledyard</option>
+			<option value ="litchfield">Litchfield</option>
+			<option value ="manchester">Manchester</option>
+			<option value ="middletown">Middletown</option>
+			<option value ="milford">Milford</option>
+			<option value ="new-canaan">New Canaan</option>
+			<option value ="new-haven">New Haven</option>
+			<option value ="new-london">New London</option>
+			<option value ="newtown">Newtown</option>
+			<option value ="norwalk">Norwalk</option>
+			<option value ="redding">Redding</option>
+			<option value ="ridgefield">Ridgefield</option>
+			<option value ="shelton">Shelton</option>
+			<option value ="shoreline-east">Shoreline East</option>
+			<option value ="simsbury">Simsbury</option>
+			<option value ="sono">SONO</option>
+			<option value ="stamford">Stamford</option>
+			<option value ="stratford">Stratford</option>
+			<option value ="trumbull">Trumbull</option>
+			<option value ="washington">Washington</option>
+			<option value ="west-hartford">West Hartford</option>
+			<option value ="westport">Westport</option>
+			<option value ="wilton-weston">Wilton/Weston
+		</select>
+	<select id="cuisine" name = "cuisine">
+		<option value = "">Any Cuisine</option>
+		<option value="american">American</option>
+		<option value="asian">Asian</option>
+		<option value="BBQ">BBQ</option>
+		<option value="indian">Indian</option>
+		<option value="italian">Italian</option>
+		<option value="japanese">Japanese</option>
+		<option value="korean">Korean</option>
+		<option value="latin">Latin</option>
+		<option value="thai">Thai</option>
+		<option value="vietnamese">Vietnamese</option>
+		<option value="mexican">Mexican</option>
+		<option value="chinese">Chinese</option>
+		<option value="pizza">Pizza</option>
+		<option value="spanish">Spanish</option>
+		<option value="seafood">Seafood</option>
+		<option value="french">French</option>
+		<option value="greek">Greek</option>
+		<option value="farm-to-table">Farm To Table</option>
+	</select>
+	
+	<select id="mealtype" name = "mealtype">
+		<option value = "">Any Meal Type</option>
+		<option value = "brunch">Brunch</option>
+		<option value = "breakfast">Breakfast</option>
+		<option value = "coffee-and-tea">Coffee and Tea</option>
+		<option value = "dessert">Dessert</option>
+		<option value = "lunch">Lunch</option>
+		<option value = "kid-friendly">Kid Friendly</option>
+		<option value = "food-truck">Food Truck</option>
+		<option value = "comfort-food">Comfort Food</option>
+		<option value = "fine-dining">Fine Dining</option>
+		<option value = "farm-to-table">Farm To Table</option>
+		<option value = "special-diet">Special Diet</option>
+		<option value = "date-night">Date Night</option>
+		<option value = "take-out<">Take Out</option>
+		<option value = "outdoor-dining">Outdoor Dining</option>
+		<option value = "bar-scene">Bar Scene</option>
+		<option value = "delicious-dive">Delicious Dive</option>
+	</select>
 
-  <input type="submit" style="border-top-width:0px;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;border-color:#dddddd;border-style:solid;background-color:#777777;color:#FFF;font-size:14px;font-weight:bold;font-style:normal;font-family:Arial;text-align:center;box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-o-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);background-size:auto;background-repeat:repeat;background-position:center center;padding-top:6px;padding-right:10px;padding-bottom:6px;padding-left:10px;position:absolute;width:54px;height:30px;;" class="ElButton active " value="Go" id="el4413856_a8a7a67e55df66a20a1711da8a5f2e4c">
-  </form> -->
+	<input type="submit" style="border-top-width:0px;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;border-color:#dddddd;border-style:solid;background-color:#777777;color:#FFF;font-size:14px;font-weight:bold;font-style:normal;font-family:Arial;text-align:center;box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-o-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.4);background-size:auto;background-repeat:repeat;background-position:center center;padding-top:6px;padding-right:10px;padding-bottom:6px;padding-left:10px;position:absolute;width:54px;height:30px;;" class="ElButton active " value="Go" id="el4413856_a8a7a67e55df66a20a1711da8a5f2e4c">
+	</form> -->
 </div>
 
 
