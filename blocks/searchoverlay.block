@@ -53,6 +53,43 @@
 						<button class="tag-search-btn" name="tag" value="Bar Scene">Bar Scene <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Delicious Dive">Delicious Dive <i></i></button>
 					</div>
+					<div class="tag-group">
+						<h5>Town</h5>
+						<button class="tag-search-btn" name="tag" value ="Bethel">Bethel <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Branford">Branford <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Bridgeport">Bridgeport <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Danbury">Danbury <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Darien">Darien <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Fairfield">Fairfield <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Greater Hartford">Greater Hartford <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Greenwich">Greenwich <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Guilford">Guilford <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Hamden">Hamden <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Hartford">Hartford <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Ledyard">Ledyard <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Litchfield">Litchfield <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Manchester">Manchester <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Middletown">Middletown <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Milford">Milford <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="New Canaan">New Canaan <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="New Haven">New Haven <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="New London">New London <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Newtown">Newtown <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Norwalk">Norwalk <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Redding">Redding <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Ridgefield">Ridgefield <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Shelton">Shelton <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Shoreline East">Shoreline East <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Simsbury">Simsbury <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Sono">SONO <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Stamford">Stamford <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Stratford">Stratford <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Trumbull">Trumbull <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Washington">Washington <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="West Hartford">West Hartford <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Westport">Westport <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Wilton,Weston">Wilton/Weston <i></i></button>
+					</div>
 				</form>
 			</div>
 		</div>
