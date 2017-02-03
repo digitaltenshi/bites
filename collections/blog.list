@@ -23,21 +23,9 @@
 
   <!--WRAPPER-->
   
-  <article id="post-{id}" class="{@|item-classes}  {.repeated section tags}t_{@|slugify} {.end}  {.repeated section categories}c_{@|slugify} {.end}" data-item-id="{id}">
+  <article id="post-{id}" class="blog-list {@|item-classes}  {.repeated section tags}t_{@|slugify} {.end}  {.repeated section categories}c_{@|slugify} {.end}" data-item-id="{id}">
     
-    <!--MAIN IMAGE-->
-
-    {.main-image?}  
-      <a href="{fullUrl}" class="main-image content-fill">
-        <img {@|image-meta} />
-      </a>
-    {.end}
-
-  
-
-
-    <!--POST TILE-->
-
+   <!--POST TILE-->
     <h1 class="title" data-content-field="title">
       {.passthrough?}
        <!--  <a href="{sourceUrl}" target="_blank">{title}</a>  -->
@@ -45,8 +33,6 @@
         <a href="{fullUrl}">{title}</a>
       {.end}
     </h1>
-
-
 <!--CATEGORIES-->
 
     {.repeated section categories}
@@ -58,8 +44,6 @@
     {.repeated section tags}
       <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with} 
     {.end}
-
-
         <!--POST META-->
     
       <!--AUTHOR AND DATE-->
@@ -69,32 +53,23 @@
       {.section sourceUrl}
         <a href="{@}" class="source" target="_blank">Source</a>
       {.end}
-    </p>       
-    <!--EXCERPT OR BODY-->
-
+    </p>    
+    <!--MAIN IMAGE-->
+    {.main-image?}  
+      <a href="{fullUrl}" class="main-image content-fill">
+        <img {@|image-meta} />
+      </a>
+    {.end}   
+    <!--EXCERPT-->
     {.if excerpt}
       {excerpt}
-      <p><a class="link" href="{fullUrl}">Read More</a></p>
-    {.or}
-
-      <!--MAIN CONTENT-->
-
-      {body}
-
+      <div><a class="link" href="{fullUrl}">Read More</a></div>
     {.end}
 
     <!--BLOG INJECTION-->
 
     {postItemInjectCode}    
-
-  
-
-
- 
-
-      <!--LOCATION-->
-
-
+<!--LOCATION-->
 <hr>
   </article>
 
