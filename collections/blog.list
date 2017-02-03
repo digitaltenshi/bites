@@ -57,7 +57,7 @@
     <!--MAIN IMAGE-->
     {.main-image?}  
       <a href="{fullUrl}" class="main-image content-fill">
-        <img {@|image-meta} />
+        <img src="{assetUrl}?format=300w" />
       </a>
     {.end}   
     <!--EXCERPT-->
