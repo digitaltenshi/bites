@@ -1,0 +1,75 @@
+div#searchoverlay {
+		position: absolute;
+		top: -40px;
+		left: 0;
+		width: 100%;
+		z-index: 200;
+		max-width: 1200px;
+
+		#searchoverlayform {
+			background-color: #A2CE19;
+			clear: both;
+			padding: 50px 50px;
+
+			#q {
+				background-color: transparent;
+				border: solid 1px #FFF;
+				padding: 15px 10px;
+				color: #FFF;
+				font-size: 20px;
+				width: 300px;
+				text-align: right;
+				margin-right: 15px;
+			}
+
+			::-webkit-input-placeholder {
+				color: #FFF; 
+			}
+			:-moz-placeholder { /* older Firefox*/
+				color: #FFF; 
+			}
+			::-moz-placeholder { /* Firefox 19+ */ 
+				color: #FFF; 
+			} 
+			:-ms-input-placeholder { 
+				color: #FFF; 
+			}
+
+			.tag-search {
+				display: block;
+				padding-top: 10px;
+				border-top: 1px solid #000;
+				margin-top: 10px;
+
+				h4 {
+					display: block;
+					text-align: center;
+				}
+				.tag-group {}
+				.tag-search-btn {
+					padding: .5rem;
+					background-color: #717171;
+					i {
+						font-size: inherit;
+						width: 1rem;
+						height: 1rem;
+						background: url(assets/fontawesome-svg-white/arrow-right.svg) center center no-repeat;
+						background-size: cover;
+					}
+				}
+			}
+		}
+}
+
+.overlay-edition {
+		width: 25%;
+		display: inline-block;
+}
+
+#searchmagnify {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	padding: 0 20px;
+	vertical-align: bottom;
+}
