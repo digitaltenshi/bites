@@ -1,10 +1,27 @@
 div#searchoverlay {
 		position: absolute;
-		top: -40px;
+		top: -100px;
 		left: 0;
 		width: 100%;
 		z-index: 200;
 		max-width: 1200px;
+
+		.searchoverlay-close-btn {
+		    position: relative;
+		    top: 1rem;
+		    width: 10rem;
+		    height: 5rem;
+		    background-color: #a2ce19;
+		    display: inline-block;
+		    float: right;
+
+		    img#searchoverlayclose {
+		        width: 2rem;
+		        position: absolute;
+		        right: 2rem;
+		        top: 1rem;
+		    }
+		}
 
 		#searchoverlayform {
 			background-color: #A2CE19;
@@ -44,17 +61,36 @@ div#searchoverlay {
 				h4 {
 					display: block;
 					text-align: center;
+					margin: .5rem 0;
 				}
-				.tag-group {}
+				.tag-group {
+					h5 {
+						margin: 0 1rem 1.5rem 0rem;
+						display: inline-block;
+					}
+				}
 				.tag-search-btn {
-					padding: .5rem;
-					background-color: #717171;
+					padding: .2rem 1rem;
+					background-color: rgba(255,255,255,0.5);
+					border-radius: 10px;
+					border-width: 0px;
+					line-height: 1.1em;
+					vertical-align: middle;
+					font-size: .875rem;
 					i {
 						font-size: inherit;
 						width: 1rem;
 						height: 1rem;
-						background: url(assets/fontawesome-svg-white/arrow-right.svg) center center no-repeat;
+						background: url(assets/fontawesome-svg-black/arrow-right.svg) center center no-repeat;
 						background-size: cover;
+						opacity: .5;
+					}
+
+					&:hover {
+						background-color: rgba(255,255,255,0.9);
+						i {
+							opacity: 1.0;
+						}
 					}
 				}
 			}
