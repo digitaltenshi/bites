@@ -34,6 +34,25 @@
   <option value="Greek">Greek</option>
   <option value="Farm-to-Table">Farm To Table</option>
 </select>
+<select id="mealtype" name="tag">
+  <option value = "">Any Meal Type</option>
+  <option value = "Brunch">Brunch</option>
+  <option value = "breakfast">Breakfast</option>
+  <option value = "coffee-and-tea">Coffee and Tea</option>
+  <option value = "dessert">Dessert</option>
+  <option value = "lunch">Lunch</option>
+  <option value = "kid-friendly">Kid Friendly</option>
+  <option value = "food-truck">Food Truck</option>
+  <option value = "comfort-food">Comfort Food</option>
+  <option value = "fine-dining">Fine Dining</option>
+  <option value = "farm-to-table">Farm To Table</option>
+  <option value = "special-diet">Special Diet</option>
+  <option value = "date-night">Date Night</option>
+  <option value = "take-out<">Take Out</option>
+  <option value = "outdoor-dining">Outdoor Dining</option>
+  <option value = "bar-scene">Bar Scene</option>
+  <option value = "delicious-dive">Delicious Dive</option>
+</select>
 <input type = "submit" value = "go" id = "searchmagnify" style="background:url(/assets/searchmagnify.svg) no-repeat; background-color: transparent; height:54px; width:54px; border: solid 1px #FFF; text-indent: -999999px;background-position: 13px 15px;">
 </form>
 
