@@ -10,14 +10,13 @@
 				<input type = "submit" value = "go" id = "searchmagnify" style="background:url(/assets/searchmagnify.svg) no-repeat; background-color: transparent; height:54px; width:54px; border: solid 1px #FFF; text-indent: -999999px;background-position: 13px 15px;">
 			</form>
 
-			<hr>
-			<div class="tagSearch">
+			<div class="tag-search">
 				<h4>Search by Tags</h4>
-				<form name='searchTag' id='tagSearch' method="get" action="/blog/">
+				<form name='searchTag' id='form-tag-search' method="get" action="/blog/">
 					<div class="tag-group">
-						<h4>Cuisine</h4>
-						<button name="tag" value="Asian">Asian</button>
-						<button name="tag" value="BBQ">BBQ</button>
+						<h5>Cuisine</h5>
+						<button class="tag-search-btn" name="tag" value="Asian">Asian <i></i></button>
+						<button class="tag-search-btn" name="tag" value="BBQ">BBQ <i></i></button>
 					</div>
 				</form>
 			</div>
