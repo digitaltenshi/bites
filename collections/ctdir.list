@@ -33,59 +33,41 @@
       </a>
     {.end}
 
-  
-
-
-    <!--POST TILE-->
-
+<!--POST TILE-->
     <h1 class="title" data-content-field="title">
       {.passthrough?}
        <a href="{fullUrl}">{title}</a>
       {.end}
     </h1>
 
-
 <!--CATEGORIES-->
-
     {.repeated section categories}
       <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with} 
     {.end}
 
-    <!--TAGS-->
-
+<!--TAGS-->
     {.repeated section tags}
       <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with} 
     {.end}
 
-
-        <!--POST META-->
-    
-      <!--AUTHOR AND DATE-->
-    
+<!--POST META-->
+   
+  <!--AUTHOR AND DATE-->
     <p class="meta">
       <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a> <time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time>
       {.section sourceUrl}
         <a href="{@}" class="source" target="_blank">Source</a>
       {.end}
     </p>       
-    <!--EXCERPT OR BODY-->
+  <!--EXCERPT OR BODY-->
 
     {.if excerpt}
       {excerpt}
       <p><a class="link" href="{fullUrl}">Read More</a></p>
-    {.or}
-
-      <!--MAIN CONTENT-->
-
-      {body}
-
     {.end}
-
     <!--BLOG INJECTION-->
-
     {postItemInjectCode}    
 
-  
   <!--LOCATION-->
 
 
