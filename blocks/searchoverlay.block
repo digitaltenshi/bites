@@ -32,25 +32,25 @@
 						<button class="tag-search-btn" name="tag" value="Seafood">Seafood <i></i></button>
 						<button class="tag-search-btn" name="tag" value="French">French <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Greek">Greek <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Farm+To+Table">Farm To Table <i></i></button>
+						<button class="tag-search-btn" name="tag" value="Farm To Table">Farm To Table <i></i></button>
 					</div>
 					<div class="tag-group">
 						<h5>Meal Type</h5>
 						<button class="tag-search-btn" name="tag" value="Brunch">Brunch <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Breakfast">Breakfast <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Tea+And+Coffee,Coffee,Tea">Tea And Coffee<i></i></button>
+						<button class="tag-search-btn" name="tag" value="Tea And Coffee,Coffee,Tea">Tea And Coffee<i></i></button>
 						<button class="tag-search-btn" name="tag" value="Dessert">Dessert <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Lunch">Lunch <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Kid+Friendly">Kid Friendly <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Food+Truck">Food Truck <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Comfort+Food">Comfort Food <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Farm+To+Table">Farm To Table <i></i></button>
+						<button class="tag-search-btn" name="tag" value="Kid Friendly">Kid Friendly <i></i></button>
+						<button class="tag-search-btn" name="tag" value="Food Truck">Food Truck <i></i></button>
+						<button class="tag-search-btn" name="tag" value="Comfort Food">Comfort Food <i></i></button>
+						<button class="tag-search-btn" name="tag" value="Farm To Table">Farm To Table <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Special Diet">Special Diet <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Date+Night">Date Night <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Take+Out<">Take Out <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Outdoor+Dining">Outdoor Dining <i></i></button>
+						<button class="tag-search-btn" name="tag" value="Date Night">Date Night <i></i></button>
+						<button class="tag-search-btn" name="tag" value="Take Out<">Take Out <i></i></button>
+						<button class="tag-search-btn" name="tag" value="Outdoor Dining">Outdoor Dining <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Bar">Bar<i></i></button>
-						<button class="tag-search-btn" name="tag" value="Delicious+Dives">Delicious Dives<i></i></button>
+						<button class="tag-search-btn" name="tag" value="Delicious Dives">Delicious Dives<i></i></button>
 					</div>
 					<div class="tag-group">
 						<h5>Town</h5>
@@ -60,7 +60,7 @@
 						<button class="tag-search-btn" name="tag" value ="Danbury">Danbury <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Darien">Darien <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Fairfield">Fairfield <i></i></button>
-						<button class="tag-search-btn" name="tag" value ="Greater+Hartford">Greater Hartford <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Greater Hartford">Greater Hartford <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Greenwich">Greenwich <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Guilford">Guilford <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Hamden">Hamden <i></i></button>
@@ -70,22 +70,22 @@
 						<button class="tag-search-btn" name="tag" value ="Manchester">Manchester <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Middletown">Middletown <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Milford">Milford <i></i></button>
-						<button class="tag-search-btn" name="tag" value ="New+Canaan">New Canaan <i></i></button>
-						<button class="tag-search-btn" name="tag" value ="New+Haven">New Haven <i></i></button>
-						<button class="tag-search-btn" name="tag" value ="New+London">New London <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="New Canaan">New Canaan <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="New Haven">New Haven <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="New London">New London <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Newtown">Newtown <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Norwalk">Norwalk <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Redding">Redding <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Ridgefield">Ridgefield <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Shelton">Shelton <i></i></button>
-						<button class="tag-search-btn" name="tag" value ="Shoreline+East">Shoreline East <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="Shoreline East">Shoreline East <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Simsbury">Simsbury <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Sono">SONO <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Stamford">Stamford <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Stratford">Stratford <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Trumbull">Trumbull <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Washington">Washington <i></i></button>
-						<button class="tag-search-btn" name="tag" value ="West+Hartford">West Hartford <i></i></button>
+						<button class="tag-search-btn" name="tag" value ="West Hartford">West Hartford <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Westport">Westport <i></i></button>
 						<button class="tag-search-btn" name="tag" value ="Wilton,Weston">Wilton/Weston <i></i></button>
 					</div>
