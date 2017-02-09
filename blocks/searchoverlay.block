@@ -44,8 +44,7 @@
 						<button class="tag-search-btn" name="tag" value="Kid Friendly">Kid Friendly <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Food Truck">Food Truck <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Comfort Food">Comfort Food <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Farm To Table">Farm To Table <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Special Diet">Special Diet <i></i></button>
+						<button class="tag-search-btn" name="tag" value="Farm to Table">Farm To Table <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Date Night">Date Night <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Take Out<">Take Out <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Outdoor Dining">Outdoor Dining <i></i></button>
