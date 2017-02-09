@@ -24,8 +24,8 @@ a {
   }
 }
 
-[class*=title] {
-  a {
+[class*="title"],[data-content-field="title"]  {
+  >a {
     border-bottom: none;
     &:hover {
       color: darken(@green, 40%);
