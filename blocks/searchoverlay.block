@@ -32,7 +32,7 @@
 						<button class="tag-search-btn" name="tag" value="Seafood">Seafood <i></i></button>
 						<button class="tag-search-btn" name="tag" value="French">French <i></i></button>
 						<button class="tag-search-btn" name="tag" value="Greek">Greek <i></i></button>
-						<button class="tag-search-btn" name="tag" value="Farm To Table">Farm To Table <i></i></button>
+						<button class="tag-search-btn" name="tag" value="Farm to Table">Farm To Table <i></i></button>
 					</div>
 					<div class="tag-group">
 						<h5>Meal Type</h5>
