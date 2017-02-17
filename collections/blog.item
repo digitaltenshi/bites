@@ -33,13 +33,12 @@
 
         <!--AUTHOR AND DATE-->
     
-    <p class="meta">
-      <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a> <time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time>
-      <div class="fb-like" data-href="{permalink}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+    <div class="meta">
+      <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a> <time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time><div class="fb-like" data-href="{fullUrl}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
       {.section sourceUrl}
         <a href="{@}" class="source" target="_blank">Website</a>
       {.end}
-    </p>        
+    </div>        
   
     
     <!--MAIN CONTENT-->
