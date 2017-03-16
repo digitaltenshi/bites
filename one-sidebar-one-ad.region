@@ -13,10 +13,30 @@
           <div id="sidebar-one" class="vertical-navigation-bar">
             <div class="sponsors">
               <h3>Our Sponsors</h3>
+              <!-- /11160298/Sidebar_300x250_Features_1 -->
+              <div id='div-gpt-ad-1475086344521-6' class='google-ad--hidden'></div>
+              <!-- /11160298/Sidebar_300x250_Restaurants_1 -->
+              <div id='div-gpt-ad-1475086344521-8' class='google-ad--hidden'></div>
               <!-- /11160298/Sidebar_300x250_General_1 -->
-              <div id='div-gpt-ad-1475086344521-7' style='height:250px; width:300px;'>
+              <div id='div-gpt-ad-1475086344521-7' class='google-ad--hidden'></div>
               <script>
-              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475086344521-7'); });
+                var hasSpecialtyAd = false;
+                if ($('article').hasClass('c_features')) {
+                  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475086344521-6'); });
+                  $('#div-gpt-ad-1475086344521-6').removeClass('google-ad--hidden');
+                  $('#div-gpt-ad-1475086344521-6').addClass('google-ad--shown');
+                  hasSpecialtyAd = true;
+                } else if ($('article').hasClass('c_restaurant')) {
+                  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475086344521-8'); });
+                  $('#div-gpt-ad-1475086344521-8').removeClass('google-ad--hidden');
+                  $('#div-gpt-ad-1475086344521-8').addClass('google-ad--shown');
+                  hasSpecialtyAd = true;
+                } 
+                if (!hasSpecialtyAd) {
+                  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475086344521-7'); });
+                  $('#div-gpt-ad-1475086344521-7').removeClass('google-ad--hidden');
+                  $('#div-gpt-ad-1475086344521-7').addClass('google-ad--shown');
+                }        
               </script>
               </div>
             </div>
