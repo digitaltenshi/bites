@@ -25,7 +25,10 @@
 		<option value="/blog/?tag=Wilton">Wilton</option>
 	</select>
 
-	<a class="button" href="/blog/?category=Restaurant">All Reviews Archive</a>
+	<a class="button" href="/blog/?category=Restaurant">
+		<i class="fa fa-archive" aria-hidden="true"></i>
+		&nbsp; Archive of All Reviews
+	</a>
 </div>
 
 </div>
