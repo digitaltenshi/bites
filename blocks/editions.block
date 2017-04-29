@@ -24,8 +24,8 @@
 		<option value="/blog/?tag=Westport">Westport</option>
 		<option value="/blog/?tag=Wilton">Wilton</option>
 	</select>
-	&nbsp;
-	<a class="button" href="/blog/?category=Restaurants">Review Archive</a>
+
+	<a class="button" href="/blog/?category=Restaurants">All Reviews Archive</a>
 </div>
 
 </div>
