@@ -1,34 +1,38 @@
 <div class="editions">
 
 <div class="editions__navigation">
-	<label>Choose a CTbites edition </label> 
-	<select name = "edition" onchange="if (this.value) window.location.href=this.value">
-		<option value = "">---Choose a town---</option>
-		<option value="/blog/?tag=Bethel">Bethel</option>
-		<option value="/blog/?tag=Bridgeport">Bridgeport</option>
-		<option value="/blog/?tag=Danbury">Danbury</option>
-		<option value="/blog/?tag=Darien">Darien</option>
-		<option value="/blog/?tag=Fairfield">Fairfield</option>
-		<option value="/blog/?tag=Greenwich">Greenwich</option>
-		<option value="/blog/?tag=Greater Hartford">Greater Hartford</option>
-		<option value="/blog/?tag=Litchfield">Litchfield</option>
-		<option value="/blog/?tag=Milford">Milford</option>
-		<option value="/blog/?tag=New Canaan">New Canaan</option>
-		<option value="/blog/?tag=New Haven">New Haven</option>
-		<option value="/blog/?tag=Newtown">Newtown</option>
-		<option value="/blog/?tag=Norwalk">Norwalk</option>
-		<option value="/blog/?tag=Ridgefield">Ridgefield</option>
-		<option value="/blog/?tag=Shoreline East">Shoreline East</option>
-		<option value="/blog/?tag=Stamford">Stamford</option>
-		<option value="/blog/?tag=Simsbury">Simsbury</option>
-		<option value="/blog/?tag=Westport">Westport</option>
-		<option value="/blog/?tag=Wilton">Wilton</option>
-	</select>
+	<div class="navigation__item">
+		<label>Choose a CTbites edition </label> 
+		<select name = "edition" onchange="if (this.value) window.location.href=this.value">
+			<option value = "">---Choose a town---</option>
+			<option value="/blog/?tag=Bethel">Bethel</option>
+			<option value="/blog/?tag=Bridgeport">Bridgeport</option>
+			<option value="/blog/?tag=Danbury">Danbury</option>
+			<option value="/blog/?tag=Darien">Darien</option>
+			<option value="/blog/?tag=Fairfield">Fairfield</option>
+			<option value="/blog/?tag=Greenwich">Greenwich</option>
+			<option value="/blog/?tag=Greater Hartford">Greater Hartford</option>
+			<option value="/blog/?tag=Litchfield">Litchfield</option>
+			<option value="/blog/?tag=Milford">Milford</option>
+			<option value="/blog/?tag=New Canaan">New Canaan</option>
+			<option value="/blog/?tag=New Haven">New Haven</option>
+			<option value="/blog/?tag=Newtown">Newtown</option>
+			<option value="/blog/?tag=Norwalk">Norwalk</option>
+			<option value="/blog/?tag=Ridgefield">Ridgefield</option>
+			<option value="/blog/?tag=Shoreline East">Shoreline East</option>
+			<option value="/blog/?tag=Stamford">Stamford</option>
+			<option value="/blog/?tag=Simsbury">Simsbury</option>
+			<option value="/blog/?tag=Westport">Westport</option>
+			<option value="/blog/?tag=Wilton">Wilton</option>
+		</select>
+	</div>
 
-	<a class="button" href="/blog/?category=Restaurant">
-		<i class="fa fa-archive" aria-hidden="true"></i>
-		&nbsp; Archive of All Reviews
-	</a>
+	<div class="navigation__item">
+		<a class="button" href="/blog/?category=Restaurant">
+			<i class="fa fa-archive" aria-hidden="true"></i>
+			&nbsp; Archive of All Reviews
+		</a>
+	</div>
 </div>
 
 </div>
