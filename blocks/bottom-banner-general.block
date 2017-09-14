@@ -1,9 +1,11 @@
-<div class = "bottomad">
-<!-- /11160298/Banner_728x90_General -->
-<div id='div-gpt-ad-1475086344521-2'>
-<script>
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475086344521-2'); });
-</script>
+<div class="bottomad">
+	<!-- /11160298/Banner_728x90_General -->
+	<div id='div-gpt-ad-1475086344521-2'>
+		<script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475086344521-2'); });</script>
+	</div>
+	<div class="google-ads-block">
+		<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<ins class="adsbygoogle" data-ad-client="ca-pub-0245326303401824" data-ad-format="autorelaxed" data-ad-slot="6085618479" style="display:block"></ins>
+		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+	</div>
 </div>
-</div>
-
