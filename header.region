@@ -21,6 +21,7 @@
         googletag.defineSlot('/11160298/Sidebar_300x250_Home_2', [300, 250], 'div-gpt-ad-1474687809144-1').addService(googletag.pubads());
         googletag.defineSlot('/11160298/Sidebar_300x250_Home_3', [300, 250], 'div-gpt-ad-1474687809144-2').addService(googletag.pubads());
         googletag.defineSlot('/11160298/Sidebar_300x250_Home_4', [300, 250], 'div-gpt-ad-1474687809144-3').addService(googletag.pubads());
+        googletag.defineSlot('/11160298/Sidebar_300x250_Home_5', [300, 250], 'div-gpt-ad-1508150352493-0').addService(googletag.pubads());
         googletag.defineSlot('/11160298/Banner_728x90_Home', [[468, 60], [728, 90]], 'div-gpt-ad-1474687809144-4').addService(googletag.pubads());
 
         //Directory Page Ads
