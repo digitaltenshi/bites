@@ -58,22 +58,6 @@
         </li>
 
     {.end}
-<! ––
-<div id = "searchform">
-   <!--form method="get" action="/search" --->
-  <input type="hidden" name="moduleId" value="3958589">
 
-
-        <span class="queryFieldWrapper">
-          <input type="text" class="text queryField" name="searchQuery" value="Search..." id="searchtext" placeholder="Search..." readonly>
-        </span>
-
-        <span class="queryButtonWrapper">
-          <input type="submit" class="button queryButton" id = "searchbtn">
-        </span>
-
-<!-- /form -->
-</div>
-––>
   </ul>
 </nav>
