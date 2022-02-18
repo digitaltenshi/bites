@@ -60,7 +60,8 @@
     {.end}
 
     <script async src="https://cse.google.com/cse.js?cx=f54961ace1b3aa968"></script>
+    <div id="cse" style="width: 40%; margin: 0 auto">
     <div class="gcse-search"></div>
-    
+
   </ul>
 </nav>
