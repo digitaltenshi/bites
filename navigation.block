@@ -58,10 +58,11 @@
         </li>
 
     {.end}
-
+    <div class="main-navigation-list">
     <script async src="https://cse.google.com/cse.js?cx=f54961ace1b3aa968"></script>
     <div id="cse" style="width: 25%; margin: 0 auto">
     <div class="gcse-search"></div>
+    </div>
 
   </ul>
 </nav>
