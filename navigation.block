@@ -1,27 +1,63 @@
-hform">
+<nav id="main-navigation" class="main-navigation" data-content-field="navigation-mainNav">
+  <ul class="main-navigation-list">
+    {.repeated section items}
 
-  <script async src="https://cse.google.com/cse.js?cx=f54961ace1b3aa968"></script>
-  <div id="cse" style="width: 25%; margin: 0 auto">
-    
+        <li class="main-navigation-item {.section active} active-link{.end}{.if folderActive} active-folder{.end}">
 
-   <!--form method="get" action="/search" --->
+          {.folder?}
 
-   <!--form method="get" action="/search"
+            <!--FOLDER-->
 
-  <input type="hidden" name="moduleId" value="3958589">
+              <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
 
+              <ul>
 
+                {.repeated section items}
 
-        <span class="queryFieldWrapper">
-          <input type="text" class="text queryField" name="searchQuery" value="Search..." id="searchtext" placeholder="Search..." readonly>
-        </span>
+                  <!--COLLECTION IN A FOLDER-->
 
-        <span class="queryButtonWrapper">
-          <input type="submit" class="button queryButton" id = "searchbtn">
-        </span>
-        --->
+                  {.collection?}
+                    <li class="{.section active} active-link{.end}">
+                      <a href="{collection.fullUrl}">
+                        {collection.navigationTitle}
+                      </a>
+                    </li>
+                  {.end}
 
-<!-- /form -->
-</div>
+                  <!--EXTERNAL LINK IN A FOLDER-->
+
+                  {.section externalLink}
+                    <li class="main-navigation-dropdown">
+                      <a href="{url}"{.section newWindow} target="_blank"{.end}>
+                        {title}
+                      </a>
+                    </li>
+                  {.end}
+                {.end}
+
+              </ul>
+
+          {.or}
+
+            <!--COLLECTION-->
+
+            {.section collection}
+              <a href="{fullUrl}">{navigationTitle}</a>
+            {.end}
+
+            <!--EXTERNAL LINK-->
+
+            {.section externalLink}
+              <a href="{url}"{.section newWindow} target="_blank"{.end}>
+                {title}
+              </a>
+            {.end}
+
+          {.end}
+
+        </li>
+
+    {.end}
+
   </ul>
 </nav>
