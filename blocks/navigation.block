@@ -1,4 +1,4 @@
-<nav id="main-navigation" class="main-navigation" style="vertical-align: middle" data-content-field="navigation-mainNav">
+<nav id="main-navigation" class="main-navigation" data-content-field="navigation-mainNav">
   <ul class="main-navigation-list">
     {.repeated section items}
 
@@ -36,7 +36,7 @@
                 {.end}
 
               </ul>
-
+              
           {.or}
 
             <!--COLLECTION-->
@@ -56,12 +56,22 @@
           {.end}
 
         </li>
-
+        
     {.end}
+<div id = "searchform">
+   <!--form method="get" action="/search" --->
+  <input type="hidden" name="moduleId" value="3958589">
+  
+     
+        <span class="queryFieldWrapper">
+          <input type="text" class="text queryField" name="searchQuery" value="Search..." id="searchtext" placeholder="Search..." readonly>
+        </span>
 
-<script async src="https://cse.google.com/cse.js?cx=f54961ace1b3aa968"></script>
-<div id="cse">
-<div class="gcse-search"></div>
+        <span class="queryButtonWrapper">
+          <input type="submit" class="button queryButton" id = "searchbtn">
+        </span>
 
+<!-- /form -->
+</div>
   </ul>
 </nav>
