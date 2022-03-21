@@ -1,4 +1,4 @@
-<nav id="main-navigation" class="main-navigation" data-content-field="navigation-mainNav" style="vertical-align: middle;">
+<nav id="main-navigation" class="main-navigation" data-content-field="navigation-mainNav">
   <ul class="main-navigation-list">
     {.repeated section items}
 
@@ -58,10 +58,8 @@
         </li>
 
     {.end}
-    <div id = "searchform">
     <script async src="https://cse.google.com/cse.js?cx=f54961ace1b3aa968"></script>
-    <div id="cse" style="width: 40%;">
+    <div id="cse" style="width: 40%; margin: 0 auto">
     <div class="gcse-search"></div>
-    </div>
   </ul>
 </nav>
