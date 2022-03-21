@@ -1035,10 +1035,9 @@ hr.large {
 }
 
 #searchform {
-    display: inline-block;
-    max-width: 500px;
-    // clear: none;
-    // float: right;
+    display: inline;
+    clear: none;
+    float: right;
 }
 
 input#searchtext:hover {
@@ -1634,9 +1633,6 @@ input#searchbtn {
         width: 100%;
         display: block;
     }
-    #main-navigation {
-      vertical-align: middle;
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -1717,13 +1713,11 @@ input#searchbtn {
         clear: both;
         padding: 30px 5px;
     }
-
     .main-navigation-list {
         padding-left: 0;
         margin-top: 10px;
         display: flex;
         flex-wrap: wrap;
-        vertical-align: middle;
     }
     .main-navigation-item {
         display: block;
@@ -1741,12 +1735,11 @@ input#searchbtn {
         }
     }
     #searchform {
-        display: inline-block;
+        display: block;
         clear: both;
         float: none;
         margin: 10px;
         width: 100%;
-        max-width: 500px;
         text-align: center;
     }
     input #searchtext {
